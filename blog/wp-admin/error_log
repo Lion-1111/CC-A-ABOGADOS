@@ -1,0 +1,2 @@
+[22-Mar-2022 02:55:17 UTC] Error Unknown column 'wp_' in 'field list' de la base de datos de WordPress para la consulta SELECT wp_
+[20-Jul-2022 20:06:41 UTC] PHP Warning:  Undefined array key "package" in /home/abogadoscca/public_html/blog/wp-admin/includes/class-theme-upgrader.php on line 440

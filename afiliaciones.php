@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv=”Content-Language” content=”es” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afilicaciones - CCA Abogados</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./assets/css/styles-carrousel.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/input.css">
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/carrousel.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SCGFRHD46R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SCGFRHD46R');
+</script>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark padding-nav fixed-top" style="background-color: #292929;font-weight: 900;">
+                <a class="navbar-brand" href="index"><img src="assets/img/Iconos/logo.png" width="130"></img>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Acerca de..
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="firma">La firma</a>
+                                    <a class="dropdown-item" href="capsula">Nosotros</a>
+                                    <a class="dropdown-item" href="faq">FAQs</a>
+                                    <a class="dropdown-item" href="only">Productos</a>
+                                    <a class="dropdown-item" href="afiliaciones-1">Vínculos</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="afiliaciones">Afiliaciones <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto">Contáctanos</a>
+                        </li>
+                        <div class="ml-2 border-left pl-3">
+                            <a href="tel:+525550878159">
+                                <button class="btn-callus px-3 py-2 mt-1">
+                                    <img src="./assets/img/Iconos/phone.svg" />
+                                    <small>Llámanos ahora</small>
+                                </button>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <section class="margin-header" style="background-image: url(./assets/img/Marble_b.jpg);background-size: 100%;">
+        <div class="pt-5" style="padding-bottom:1.5rem">
+            <div class="col-12 pt-5 mb-5">
+                <h1 class="title-4 text-center">Afíliate con nosotros</h1>
+            </div>
+        </div>
+    </section>
+    <section class="col-md-10 mx-auto mb-5 pb-5 pt-5 img-buho-2 aparece" id="cards">
+        <h2 class="title-form text-center my-5"><span style="border-bottom: 2px solid #292929 !important;">"L</span>legar juntos es el principio. Matenerse juntos, es el progreso. Trabajar juntos es el éxito. Henry Ford."</h2>
+        <form class="col-10 mx-auto" id="afiliateForm" name="sentMessage" novalidate="novalidate">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="form-label-group ">
+                        <input type="text " id="inputName" class="px-0 forms border-bottom-only " placeholder="Tu nombre " required>
+                        <label for="inputName" class="px-0 ">Nombre</label>
+                        <small>
+                            <p id="nameError" style="color:#192571" class="m-0"></p>
+                        </small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-label-group ">
+                        <input type="email" id="inputEmail" class="px-0 forms border-bottom-only " placeholder="Email " required>
+                        <label for="inputEmail" class="px-0 ">Correo</label>
+                        <small>
+                            <p id="emailError" style="color:#192571" class="m-0"></p>
+                        </small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="form-label-group ">
+                        <input type="number" id="inputPhone" class="px-0 forms border-bottom-only " placeholder="Teléfono " required>
+                        <label for="inputPhone" class="px-0 ">Teléfono celular</label>
+                        <small>
+                            <p id="phoneError" style="color:#192571" class="m-0"></p>
+                        </small>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-label-group ">
+                        <input type="number" id="inputPhoneHouse" class="px-0 forms border-bottom-only " placeholder="Teléfono " required>
+                        <label for="inputPhoneHouse" class="px-0 ">Teléfono fijo</label>
+                        <small>
+                            <p id="phoneHouseError" style="color:#192571" class="m-0"></p>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="form-label-group ">
+                        <input type="text " id="inputCity" class="px-0 forms no-borders " placeholder="Tu nombre " required>
+                        <label for="inputCity" class="px-0 ">Ciudad</label>
+                        <small>
+                            <p id="cityError" style="color:#192571" class="m-0"></p>
+                        </small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="inputBirthDate" class="px-0 mb-0">Fecha de nacimiento</label>
+                    <input type="date" id="inputBirthDate" class="px-0 forms no-borders " placeholder="Tu fecha " required>
+                    <small>
+                        <p id="birthDateError" style="color:#192571" class="m-0"></p>
+                    </small>
+                </div>
+            </div>
+
+
+
+            <!-- <select class="forms border-bottom-only mt-2 mb-0 px-0" id="inputContactPreference">
+                <option selected disabled value="">Preferencia de contacto</option>
+                <option value="email">Correo</option>
+                <option value="whatsapp">Whatsapp</option>
+                <option value="phone">Teléfono</option>
+            </select>
+            <small>
+                <p id="contactError" style="color:#192571" class="mb-4"></p>
+            </small> -->
+            <div class="col-md-8 mx-auto mt-5 text-center">
+                <p class="text-form">¿Declara que los datos proporcionados son verídicos y autoriza
+                    que se corrobore dicha información, así como que obtenga otra
+                    información personal que esté disponible en fuentes de acceso
+                    público?</p>
+                <input class="" id="terms" type="radio" /> <label for=""><strong>Acepto</strong></label>
+            </div>
+            <small>
+                <p id="termsError" class="text-center" style="color:#192571" class="m-0"></p>
+            </small>
+            <div class="row ">
+                <div class="col-12">
+                    <small>
+                        <p id="errorForm" style="color:#192571"></p>
+                    </small>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-6 mx-auto">
+                    <input type="submit" class="btn btn-azul btn-form btn-block text-white mb-2 " style="background-color: #292929;" id="sendMessageButton" type="submit" value="Enviar" />
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <footer style="background-color:#000 !important">
+
+        <div class="row col-12 p-0 m-0">
+
+            <div class="col-12 text-center mt-4">
+
+                <img src="assets/img/Iconos/logo.png" width="200" />
+
+            </div>
+
+            <div class="col-12 text-center">
+
+                <hr class="hr-white">
+
+                <p class="copyright text-center"> Copyright © 2020 CCA Abogados. Todos los derechos reservados.</p>
+
+                <small class="text-white">© Desarrollado por Deskrive</small>
+
+            </div>
+
+            <div class="col-12 text-center">
+
+                <a href="https://www.facebook.com/Constantino-Castro-y-Asociados-2321299471471901"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" /></a>
+
+                <a href="https://twitter.com/castro_despacho">
+
+                    <img src="./assets/img/social-network/icons8-twitter.svg" width="30" />
+
+                </a>
+
+                <a href="https://www.instagram.com/cca_abogados_/">
+
+                    <img src="./assets/img/social-network/instagram.png" width="30" />
+
+                </a>
+
+                <!--<a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
+
+                    <img src="./assets/img/social-network/linkedin.png" width="30" />
+
+                </a>-->
+
+                <a href="https://www.youtube.com/channel/UC4dOqk-nOPwqfpGVDKDreoQ">
+
+                    <img src="./assets/img/social-network/youtube.png" width="30" />
+
+                </a>
+
+            </div>
+
+            <div class="col-12 text-center">
+
+                <hr class="hr-white">
+
+            </div>
+
+            <br>
+
+        </div>
+
+        <div class="row col-12 m-0 px-5">
+
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+
+                <div class="row pt-3">
+
+                    <div class=" text-center col-md-1 mt-2">
+
+                        <img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20"></img>
+
+                    </div>
+
+                    <div class=" col-md-10">
+
+                        <p class="text-white text-center letter-roboto">Plaza San Buenaventura 1-29,
+
+                            <br /> Ixtapaluca, Estado de México. CP 56530
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col-12 col-md-4 mx-auto text-left">
+
+                <div class="row pt-4 mt-1">
+
+                    <div class="col-lg-1 ml-auto text-center">
+
+                        <img src="./assets/img/Iconos/correo.svg" class="" width="20"></img>
+
+                    </div>
+
+                    <div class="col-md-12 col-lg-8 col-xl-8 mr-auto">
+
+                        <p class="text-white text-center letter-roboto">
+
+                            <a>contacto@abogados-cca.com</a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+
+                <div class="row pt-3">
+
+                    <div class="text-center col-md-1  ml-auto mt-2">
+
+                        <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20"></img>
+
+                    </div>
+
+                    <div class="col-md-8 col-lg-6 mr-auto">
+
+                        <p class="text-white text-center letter-roboto"><a class="text-white" href="tel:+525550878159">55-50-87-81-59</a><br>
+
+                            <a class="text-white" href="tel:+525534042896">55-34-04-28-96</a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="d-block">
+
+                <a target="_black" href="https://api.whatsapp.com/send?phone=+525534042896text=hola,%20¿qué%20tal%20estás?" class="whatsapp-button link-no-underline text-white"><i class="fab fa-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+            <div class="d-block d-md-none">
+
+                <a target="_black" href="tel:+525550878159" class="phone-button link-no-underline text-white"><i class="fas fa-phone-alt"></i></a>
+
+            </div>
+
+        </div>
+
+        <!-- Navbar -->
+
+        <script src="./assets/jquery/jquery.js"></script>
+
+        <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+
+        crossorigin="anonymous"></script> -->
+
+        <script src="./assets/js/animations.js"></script>
+
+        <script src="./assets/OwlCarousel/js/owl.carousel.min.js"></script>
+
+        <script>
+
+            var owl = $('.owl-carousel');
+
+            owl.owlCarousel({
+
+                // center: true,
+
+                loop: true,
+
+                autoHeight: true,
+
+                nav: true,
+
+                items: 2,
+
+                margin: 10,
+
+                lazyLoad: true,
+
+                responsive: {
+
+                    0: {
+
+                        items: 1
+
+                    },
+
+                    600: {
+
+                        items: 1
+
+                    },
+
+                    960: {
+
+                        items: 1
+
+                    },
+
+                    1200: {
+
+                        items: 1
+
+                    }
+
+                }
+
+            });
+
+            // owl.on('mousewheel', '.owl-stage', function (e) {
+
+            //     if (e.deltaY > 0) {
+
+            //         owl.trigger('next.owl');
+
+            //     } else {
+
+            //         owl.trigger('prev.owl');
+
+            //     }
+
+            //     e.preventDefault();
+
+            // });
+
+        </script>
+
+        <!-- Contact form JS-->
+
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+
+        <script src="assets/mail/contact_me.js"></script>
+
+
+
+</body>
+
+
+
+</html>

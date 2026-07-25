@@ -1,0 +1,375 @@
+@media (max-width: 250px) {
+  .img-balanza {
+    background-image: url(../img/Iconos/Balanza.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 115% !important;
+    background-position-y: 105% !important;
+    background-size: 50% !important;
+  }
+  .margin-top-header {
+    margin-top: 13vh;
+  }
+  .text-hero-sections {
+    font-family: Roboto !important;
+    font-size: 10px !important;
+  }
+  .col-customer {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .img-buho-2 {
+    background-image: url(../img/buho_.png) !important;
+    /* background-image: url(../img/buho.png) !important; */
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 18% !important;
+  }
+}
+
+@media (min-width: 200px) {
+  .img-buho-2 {
+    background-image: url(../img/buho_.png) !important;
+    /* background-image: url(../img/buho.png) !important; */
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 38% !important;
+  }
+  .img-estatua-2 {
+    background-image: url(../img/estatua-2.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 100% !important;
+  }
+  .img-balanza {
+    background-image: url(../img/Iconos/Balanza.svg) !important;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: 20%;
+  }
+  .img-mazo-2 {
+    background-image: url(../img/Iconos/mazo.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 30% !important;
+  }
+  .margin-header {
+    margin-top: 12vh;
+  }
+  .margin-text-img {
+    margin-top: -6rem;
+  }
+  .img-negro {
+    background-image: url(../img/fondo_negro.png) !important;
+    background-repeat: no-repeat !important;
+    /* background-position-x: 100% !important; */
+    /* background-position-y: 0% !important; */
+    /* background-size: 30% !important; */
+  }
+  .img-abo-imp {
+    width: 100%;
+    margin-bottom: 6vh;
+  }
+  .img-abo {
+    width: 100%;
+    margin-bottom: 6vh;
+  }
+  .title-2 {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    font-size: 250%;
+  }
+  .img-estatua {
+    background-image: url(../img/Iconos/estatua.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 25% !important;
+  }
+  .img-estatua-3 {
+    background-image: url(../img/Iconos/estatua-completa.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 120% !important;
+    background-size: 25% !important;
+  }
+  .img-buho {
+    background-image: url(../img/buho_.png) !important;
+    /* background-image: url(../img/buho.png) !important; */
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 40% !important;
+  }
+
+  .col-customer {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .margin-top-header {
+    margin-top: 10vh;
+  }
+  .padding-nav {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .padding-x-hero {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .text-hero-sections {
+    font-family: Roboto !important;
+    font-size: 10px !important;
+  }
+}
+
+@media (min-width: 530px) {
+  .img-balanza {
+    background-image: url(../img/Iconos/Balanza.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 15% !important;
+  }
+  .img-estatua-3 {
+    background-image: url(../img/Iconos/estatua-completa.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 150% !important;
+    background-size: 15% !important;
+  }
+  .img-mazo-2 {
+    background-image: url(../img/Iconos/mazo.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 15% !important;
+  }
+  .margin-text-img {
+    margin-top: -9rem;
+  }
+  .img-abo-imp {
+    width: 100%;
+    margin-bottom: 6vh;
+  }
+  .title-2 {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    font-size: 350%;
+  }
+  .img-estatua {
+    background-image: url(../img/Iconos/estatua.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 25% !important;
+  }
+  .margin-top-header {
+    margin-top: 15vh;
+  }
+  .text-hero-sections {
+    font-family: Roboto !important;
+    font-size: 8px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  /* .img-balanza {
+    background-image: url(../img/Iconos/Balanza.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 150% !important;
+    background-position-y: 6rem !important;
+    background-size: 30% !important;
+  } */
+  .img-buho-2 {
+    background-image: url(../img/buho_.png) !important;
+    /* background-image: url(../img/buho.png) !important; */
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 18% !important;
+  }
+  .img-estatua-3 {
+    background-image: url(../img/Iconos/estatua-completa.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 250% !important;
+    background-size: 10% !important;
+  }
+  .img-mazo-2 {
+    background-image: url(../img/Iconos/mazo.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 170% !important;
+    background-size: 20% !important;
+  }
+  .margin-header {
+    margin-top: 10vh;
+  }
+  .margin-text-img {
+    margin-top: -4rem;
+  }
+  .img-estatua-2 {
+    background-image: url(../img/estatua-2.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 45% !important;
+  }
+  .border-right-footer {
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+  }
+  .img-abo-imp {
+    width: 32%;
+    margin-top: -3vh;
+  }
+  .img-abo {
+    width: 28%;
+  }
+  .img-carrouse {
+    width: 100% !important;
+  }
+  .title-2 {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    font-size: 350%;
+  }
+  .img-estatua {
+    background-image: url(../img/Iconos/estatua.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 15% !important;
+  }
+  .img-balanza {
+    background-image: url(../img/Iconos/Balanza.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 25% !important;
+  }
+  .margin-top-header {
+    margin-top: 10vh;
+  }
+  .padding-nav {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+  .padding-nav {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+  .text-hero-sections {
+    font-family: Roboto !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-balanza {
+    background-image: url(../img/Iconos/Balanza.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 15% !important;
+  }
+  .img-estatua-3 {
+    background-image: url(../img/Iconos/estatua-completa.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 200% !important;
+    background-size: 8% !important;
+  }
+  .img-mazo-2 {
+    background-image: url(../img/Iconos/mazo.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 150% !important;
+    background-size: 13% !important;
+  }
+  .margin-text-img {
+    margin-top: -5rem;
+  }
+  .img-carrouse {
+    width: 100% !important;
+  }
+  .title-2 {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    font-size: 350%;
+  }
+  .img-estatua {
+    background-image: url(../img/Iconos/estatua.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 18% !important;
+  }
+  .margin-top-header {
+    margin-top: 3rem;
+  }
+  .text-hero-sections {
+    font-family: Roboto !important;
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .margin-text-img {
+    margin-top: -7.8rem;
+  }
+  .title-2 {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    font-size: 350%;
+  }
+  .img-estatua {
+    background-image: url(../img/Iconos/estatua.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 100% !important;
+    background-size: 15% !important;
+  }
+  .img-mazo {
+    background-image: url(../img/mazo.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 100% !important;
+    background-position-y: 0% !important;
+    background-size: 30% !important;
+  }
+  .margin-top-header {
+    margin-top: 3rem;
+  }
+}

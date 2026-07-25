@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="328.07" height="266.59" viewBox="0 0 328.07 266.59">
+    <defs>
+        <style>
+            .cls-1{fill:#292929}
+        </style>
+    </defs>
+    <g id="mazo" transform="translate(0 -.003)">
+        <path id="Trazado_4621" d="M23.509 391.59l-18-4.343L0 368.076 141.536 226.54l23.518 23.509z" class="cls-1" transform="translate(0 -124.997)"/>
+        <path id="Rectángulo_1240" d="M0 0H42.03V40.385H0z" class="cls-1" transform="rotate(45 -26.285 226.002)"/>
+        <path id="Rectángulo_1241" d="M0 0H126.422V66.723H0z" class="cls-1" transform="rotate(45 55.214 200.075)"/>
+        <path id="Rectángulo_1242" d="M0 0H38.453V82.527H0z" class="cls-1" transform="rotate(45 74.627 180.177)"/>
+        <path id="Trazado_4622" d="M431.1 286.648l-27.19-27.189 58.355-58.359 27.194 27.194z" class="cls-1" transform="translate(-222.867 -110.96)"/>
+        <path id="Trazado_4623" d="M391.391 163.746L328.07 100.42l20.175-20.17 63.321 63.316z" class="cls-1" transform="translate(-181.021 -44.278)"/>
+        <path id="Trazado_4624" d="M403.469 138.052l-36.629-36.629 2.488-2.483 36.625 36.629z" class="cls-1" transform="translate(-202.413 -54.591)"/>
+        <path id="Rectángulo_1243" d="M0 0H3.07V14.487H0z" class="cls-1" transform="rotate(45 -53.556 221.36)"/>
+        <path id="Rectángulo_1244" d="M0 0H26.284V70.237H0z" class="cls-1" transform="rotate(45 74.627 180.178)"/>
+        <path id="Rectángulo_1245" d="M0 0H19.26V70.233H0z" class="cls-1" transform="rotate(45 7.023 343.374)"/>
+        <path id="Rectángulo_1246" d="M0 0H2.851V28.314H0z" class="cls-1" transform="rotate(45 64.936 186.332)"/>
+        <path id="Rectángulo_1247" d="M0 0H2.631V18.875H0z" class="cls-1" transform="rotate(45 -1.568 346.883)"/>
+        <path id="Trazado_4625" d="M0 394.247l5.509 19.171 6 1.448 124.828-124.832-16.06-16.064z" class="cls-1" transform="translate(0 -151.168)"/>
+        <path id="Rectángulo_1248" d="M0 0H114.925V36.876H0z" class="cls-1" transform="translate(200.855 211.224)"/>
+        <path id="Rectángulo_1249" d="M0 0H139.51V19.78H0z" class="cls-1" transform="translate(188.56 246.342)"/>
+        <path id="Rectángulo_1250" d="M0 0H73.747V4.393H0z" class="cls-1" transform="translate(208.672 218.243)"/>
+    </g>
+</svg>

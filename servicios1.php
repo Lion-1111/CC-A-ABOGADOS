@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv=”Content-Language” content=”es” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio - CCA Abogados</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./assets/css/styles-carrousel.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/input.css">
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/carrousel.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SCGFRHD46R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SCGFRHD46R');
+</script>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark padding-nav fixed-top" style="background-color: #292929;font-weight: 900;">
+                <a class="navbar-brand" href="index"><img src="assets/img/Iconos/logo.png" width="130"></img>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Acerca de..
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="firma">La firma</a>
+                                    <a class="dropdown-item" href="capsula">Nosotros</a>
+                                    <a class="dropdown-item" href="faq">FAQs</a>
+                                    <a class="dropdown-item" href="only">Productos</a>
+                                    <a class="dropdown-item" href="vinculos">Vínculos</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="afiliaciones">Afiliaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto">Contáctanos</a>
+                        </li>
+                        <div class="ml-2 border-left pl-3">
+                            <a href="tel:+525550878159">
+                                <button class="btn-callus px-3 py-2 mt-1">
+                                    <img src="./assets/img/Iconos/phone.svg" />
+                                    <small>Llámanos ahora</small>
+                                </button>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <section class="margin-header" style="background-color: #e1e2dc;">
+        <div class=" pt-5" style="padding-bottom:1.5rem">
+            <div class="col-12 pt-5 mb-5">
+                <h1 class="title-about text-center">Nuestros Servicios</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row col-12 col-md-10 mx-auto p-0 m-0">
+            <div class="col-md-3 aparece d-none d-md-block" id="cards" style="margin-top: 8rem; margin-bottom: 6rem;">
+                <div class="row">
+                    <div class="col-12">
+                        <a onClick="getInfo('DerechoInmobiliario')">
+                            <p id="DerechoInmobiliario" class="title-link border-bottom-1 pl-3">Derecho inmobiliario</p>
+                        </a>
+                        <a onClick="getInfo('Familiar')">
+                            <p id="Familiar" class="title-link border-bottom-1 pl-3">Familiar</p>
+                        </a>
+
+                        <a onClick="getInfo('Constitucional')">
+                            <p id="Constitucional" class="title-link border-bottom-1 pl-3">Constitucional</p>
+                        </a>
+                        <a onClick="getInfo('Fiscal')">
+                            <p id="Fiscal" class="title-link border-bottom-1 pl-3">Fiscal</p>
+                        </a>
+                        <a onClick="getInfo('Mercatil')">
+                            <p id="Mercatil" class="title-link border-bottom-1 pl-3">Mercantil</p>
+                        </a>
+                        <a onClick="getInfo('Aduanero')">
+                            <p id="Aduanero" class="title-link border-bottom-1 pl-3">Aduanero</p>
+                        </a>
+                        <a onClick="getInfo('Corporativo')">
+                            <p id="Corporativo" class="title-link border-bottom-1 pl-3">Corporativo</p>
+                        </a>
+                        <a onClick="getInfo('Administrativo')">
+                            <p id="Administrativo" class="title-link border-bottom-1 pl-3">Administrativo</p>
+                        </a>
+                        <a onClick="getInfo('DerechoCivil')">
+                            <p id="DerechoCivil" class="title-link border-bottom-selected pl-3">Derecho Civil</p>
+                        </a>
+                        <!-- <a onClick="getInfo('Notarial')">
+                            <p id="Notarial" class="title-link border-bottom-1 pl-3">Notarial</p>
+                        </a>
+                        <a onClick="getInfo('Amparo')">
+                            <p id="Amparo" class="title-link border-bottom-1 pl-3">Amparo</p>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 aparece" id="cards" style="margin-top: 8rem; margin-bottom: 6rem;">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="" id="img" class="w-100 mb-5" />
+                        <div id="info"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color:#000 !important">
+        <div class="row col-12 p-0 m-0">
+            <div class="col-12 text-center mt-4">
+                <img src="assets/img/Iconos/logo.png" width="200" />
+            </div>
+            <div class="col-12 text-center">
+                <hr class="hr-white">
+                <p class="copyright text-center"> Copyright © 2020 CCA Abogados. Todos los derechos reservados.</p>
+                <small class="text-white">© Desarrollado por Deskrive</small>
+            </div>
+            <div class="col-12 text-center">
+                <a href="https://www.facebook.com/Constantino-Castro-y-Asociados-2321299471471901"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" /></a>
+                <a href="https://twitter.com/castro_despacho">
+                    <img src="./assets/img/social-network/icons8-twitter.svg" width="30" />
+                </a>
+                <a href="https://www.instagram.com/cca_abogados_/">
+                    <img src="./assets/img/social-network/instagram.png" width="30" />
+                </a>
+                <!--<a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
+                    <img src="./assets/img/social-network/linkedin.png" width="30" />
+                </a>-->
+                
+                <a href="https://www.youtube.com/channel/UC4dOqk-nOPwqfpGVDKDreoQ">
+                    <img src="./assets/img/social-network/youtube.png" width="30" />
+                </a>
+            </div>
+            <div class="col-12 text-center">
+                <hr class="hr-white">
+            </div>
+            <br>
+        </div>
+        <div class="row col-12 m-0 px-5">
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+                <div class="row pt-3">
+                    <div class=" text-center col-md-1 mt-2">
+                        <img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20"></img>
+                    </div>
+                    <div class=" col-md-10">
+                        <p class="text-white text-center letter-roboto">Plaza San Buenaventura 1-29,
+                            <br /> Ixtapaluca, Estado de México. CP 56530
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+                <div class="row pt-3">
+                    <div class="text-center col-md-1  ml-auto mt-2">
+                        <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20"></img>
+                    </div>
+                    <div class="col-md-8 col-lg-6 mr-auto">
+                        <p class="text-white text-center letter-roboto"><a class="text-white" href="tel:+525550878159">55-50-87-81-59</a><br>
+                            <a class="text-white" href="tel:+525534042896">55-34-04-28-96</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mx-auto text-left">
+                <div class="row pt-4 mt-1">
+                    <div class="col-lg-1 ml-auto text-center">
+                        <img src="./assets/img/Iconos/correo.svg" class="" width="20"></img>
+                    </div>
+                    <div class="col-md-12 col-lg-8 col-xl-8 mr-auto">
+                        <p class="text-white text-center letter-roboto">
+                            <a>contacto@abogados-cca.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-block">
+                <a target="_black" href="https://api.whatsapp.com/send?phone=+525534042896text=hola,%20¿qué%20tal%20estás?" class="whatsapp-button link-no-underline text-white"><i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="d-block d-md-none">
+                <a target="_black" href="tel:+525550878159" class="phone-button link-no-underline text-white"><i class="fas fa-phone-alt"></i></a>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="./assets/js/animations.js"></script>
+        <script src="./assets/js/info-sections.js"></script>
+
+</body>
+
+</html>

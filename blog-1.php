@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv=”Content-Language” content=”es” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio - CCA Abogados</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./assets/css/styles-carrousel.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/input.css">
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/carrousel.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SCGFRHD46R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SCGFRHD46R');
+</script>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark padding-nav fixed-top" style="background-color: #292929;font-weight: 900;">
+                <a class="navbar-brand" href="index"><img src="assets/img/Iconos/logo.png" width="130"></img>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Acerca de..
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="firma">La firma</a>
+                                    <a class="dropdown-item" href="capsula">Nosotros</a>
+                                    <a class="dropdown-item" href="faq">FAQs</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="blog">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="afiliaciones">Afiliaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto">Contáctanos</a>
+                        </li>
+                        <div class="ml-2 border-left pl-3">
+                            <a href="tel:+525550878159">
+                                <button class="btn-callus px-3 py-2 mt-1">
+                                    <img src="./assets/img/Iconos/phone.svg" />
+                                    <small>Llámanos ahora</small>
+                                </button>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <section class="margin-header" style="background-image: url(./assets/img/Header_blog.jpg);background-size: 70%;">
+        <div class="pt-5" style="padding-bottom:1.5rem">
+            <div class="col-12 pt-5 mb-5">
+                <h1 class="title-4 text-center" style="color: #292929 !important;">Blog</h1>
+            </div>
+        </div>
+    </section>
+    <section class="col-10 mx-auto mb-5 pb-5">
+        <p class="text-blog my-5 aparece" id="cards"><span style="font-size: 50px; font-family: Lato;">L</span>orem
+            ipsum dolor sit amet,
+            consectetur adipiscing elit. Fusce ornare augue felis. Nam in massa nec nibh fermentum consectetur. Aenean
+            risus massa, blandit nec tincidunt in, bibendum sit amet orci. Nunc vitae facilisis augue, ut scelerisque
+            tellus. Aenean bibendum sagittis mauris, eget varius nibh luctus eu. Donec nec est rutrum, tempor urna sit
+            amet, accumsan arcu.
+            <br>
+            <br>
+            Sed sodales aliquam orci, at suscipit erat ultricies vel. Vestibulum ante ipsum primis in faucibus orci
+            luctus et ultrices posuere cubilia curae; Quisque in orci et massa tristique maximus ac non massa. Aliquam
+            eu tortor blandit, porta diam sit amet, vehicula dui. <br><br>
+            Etiam at commodo massa, ut vestibulum sem. Donec vel feugiat nisi. Nunc interdum lacus et dui ornare
+            blandit. Ut at malesuada nibh, id finibus est. Duis tempus iaculis sem ut accumsan. Nullam porta, velit non
+            pulvinar dignissim, risus dui blandit augue, et vulputate est arcu non leo. Suspendisse potenti. Donec
+            placerat lacus urna, nec vestibulum turpis mollis non. Mauris bibendum orci erat, vitae imperdiet enim
+            molestie vitae.<br><br>
+            Donec porta ligula a posuere aliquam. Etiam suscipit massa et odio porttitor lobortis. Integer vel iaculis
+            ante. Sed eget tristique ipsum, at volutpat nisi. Mauris bibendum, tellus at ornare tempus, felis elit
+            tincidunt augue, at facilisis ante libero eu nunc. Nulla tincidunt, nisl non elementum venenatis, mauris
+            tellus rhoncus sapien, in ultrices urna urna non dui. Ut pulvinar ex vitae ullamcorper dictum. Suspendisse
+            pretium, ligula quis feugiat lacinia, enim est malesuada eros, cursus posuere nibh nisi eget nunc. Nunc in
+            condimentum nisi. Nunc eu enim velit. Donec vel nisl pulvinar, imperdiet arcu sit amet, tempor lorem.
+            Aliquam in ullamcorper ligula. Vivamus dui lectus, pellentesque rhoncus iaculis at, volutpat ac augue.
+            Aenean vel tortor sed justo semper commodo et a dolor. Morbi ullamcorper felis nisi, quis mattis ipsum
+            sollicitudin sed. Duis purus ligula, convallis non turpis a, convallis fermentum purus.
+        </p>
+        <img src="./assets/img/Blog.jpg" class="w-100 mb-5">
+    </section>
+    <footer style="background-color:#000 !important">
+        <div class="row col-12 p-0 m-0">
+            <div class="col-12 text-center mt-4">
+                <img src="assets/img/Iconos/logo.png" width="200" />
+            </div>
+            <div class="col-12 text-center">
+                <hr class="hr-white">
+                <p class="copyright text-center"> Copyright © 2020 CCA Abogados. Todos los derechos reservados.</p>
+                <small class="text-white">© Desarrollado por Deskrive</small>
+            </div>
+            <div class="col-12 text-center">
+                <a href="https://www.facebook.com/Constantino-Castro-y-Asociados-2321299471471901"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" /></a>
+                <a href="https://twitter.com/castro_despacho">
+                    <img src="./assets/img/social-network/icons8-twitter.svg" width="30" />
+                </a>
+                <a href="https://www.instagram.com/cca_abogados/">
+                    <img src="./assets/img/social-network/instagram.png" width="30" />
+                </a>
+                <a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
+                    <img src="./assets/img/social-network/linkedin.png" width="30" />
+                </a>
+            </div>
+            <div class="col-12 text-center">
+                <hr class="hr-white">
+            </div>
+            <br>
+        </div>
+        <div class="row col-12 m-0 px-5">
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+                <div class="row pt-3">
+                    <div class=" text-center col-md-1 mt-2">
+                        <img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20"></img>
+                    </div>
+                    <div class=" col-md-10">
+                        <p class="text-white text-center letter-roboto">Plaza San Buenaventura 1-29,
+                            <br /> Ixtapaluca, Estado de México. CP 56530
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+                <div class="row pt-3">
+                    <div class="text-center col-md-1  ml-auto mt-2">
+                        <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20"></img>
+                    </div>
+                    <div class="col-md-8 col-lg-6 mr-auto">
+                        <p class="text-white text-center letter-roboto"><a class="text-white" href="tel:+525550878159">55-50-87-81-59</a><br>
+                            <a class="text-white" href="tel:+525534042896">55-34-04-28-96</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mx-auto text-left">
+                <div class="row pt-4 mt-1">
+                    <div class="col-lg-1 ml-auto text-center">
+                        <img src="./assets/img/Iconos/correo.svg" class="" width="20"></img>
+                    </div>
+                    <div class="col-md-12 col-lg-8 col-xl-8 mr-auto">
+                        <p class="text-white text-center letter-roboto">
+                            <a>constantinoca.abogados@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-block">
+                <a target="_black" href="https://api.whatsapp.com/send?phone=+525534042896text=hola,%20¿qué%20tal%20estás?" class="whatsapp-button link-no-underline text-white"><i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="d-block d-md-none">
+                <a target="_black" href="tel:+525550878159" class="phone-button link-no-underline text-white"><i class="fas fa-phone-alt"></i></a>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="./assets/js/animations.js"></script>
+        <script src="./assets/js/carrousel.js"></script>
+        <script src="./assets/js/info-sections.js"></script>
+</body>
+
+</html>

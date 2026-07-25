@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv=”Content-Language” content=”es” />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Inicio - CCA Abogados</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <link rel="stylesheet" href="./assets/css/animations.css">
+
+    <link rel="stylesheet" href="./assets/css/styles-carrousel.css">
+
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+
+    <link rel="stylesheet" href="./assets/css/input.css">
+
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/carrousel.css">
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SCGFRHD46R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SCGFRHD46R');
+</script>
+
+
+</head>
+
+
+
+<body>
+
+    <div class="row">
+
+        <div class="col-12">
+
+            <nav class="navbar navbar-expand-lg navbar-dark padding-nav fixed-top" style="background-color: #292929;font-weight: 900;">
+
+                <a class="navbar-brand" href="index"><img src="assets/img/Iconos/logo.png" width="130"></img>
+
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item ">
+
+                            <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <div class="dropdown">
+
+                                <button class="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                    Acerca de..
+
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                    <a class="dropdown-item" href="firma">La firma</a>
+
+                                    <a class="dropdown-item" href="capsula">Nosotros</a>
+
+                                    <a class="dropdown-item" href="faq">FAQs</a>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="servicios">Servicios</a>
+
+                        </li>
+
+                        <li class="nav-item active">
+
+                            <a class="nav-link" href="blog">Noticias</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="afiliaciones">Afiliaciones</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="contacto">Contáctanos</a>
+
+                        </li>
+
+                        <div class="ml-2 border-left pl-3">
+
+                            <a href="tel:+525550878159">
+
+                                <button class="btn-callus px-3 py-2 mt-1">
+
+                                    <img src="./assets/img/Iconos/phone.svg" />
+
+                                    <small>Llámanos ahora</small>
+
+                                </button>
+
+                            </a>
+
+                        </div>
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+    <!-- Navbar -->
+
+    <section class="margin-header" style="background-image: url(./assets/img/Faq_fondo.png);background-size: 35%;">
+
+        <div class="pt-5" style="padding-bottom:1.5rem">
+
+            <div class="col-12 pt-5 mb-5">
+
+                <h1 class="title-4 text-center">Blog</h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section style="background-image: url(./assets/img/Marble_w.jpg);">
+
+        <div class="container">
+
+            <div class="row">
+
+                <a class="col-md-6 col-lg-4 link-no-underline my-3">
+
+                    <div class="card card-body p-4">
+
+                        <img class="img-fluid" src="./assets/img/blog/1.png">
+
+                        <div class="col-8 mx-auto">
+
+                            <p class="mt-3 text-center" style="background-color: #292929; color: white;">A.M.P.I.</p>
+
+                        </div>
+
+                        <p class="title-card-1 mb-4 mt-3" style="font-size:80%">Asociación Mexicana de Profesionales Inmobiliarios, A.C.</p>
+
+                        <p class="text-card-1 text-justify" style="font-size:80%">
+
+                            <i> Lic.</i> <strong>Miriam Karina Constantino Castro</strong> fundadora del
+
+                            despacho <strong>CC&A Abogados</strong>, forma parte de la asociación
+
+                            <strong>AMPI</strong>. Desde el 31 de enero del 2020 y, actualmente es presidenta
+
+                            de la sección Valle de Anáhuac, ubicada en el oriente del Estado de México.
+
+                            <br><br><strong>AMPI</strong> es una agrupación a nivel
+
+                            nacional e internacional, con más de 60 años de experiencia
+
+                            apoyando a los profesionales inmobiliarios, otorgando
+
+                            beneficios de Capacitaciones, certificaciones e impulso a
+
+                            la administración y desarrollo de la inversión inmobiliaria,
+
+                            además cuenta con un comité de la mujer inmobiliaria
+
+                            <strong>AMPI</strong> y Consejos Globales y Regionales.
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <a class="col-md-6 col-lg-4 link-no-underline my-3">
+
+                    <div class="card card-body px-4 pt-4 pb-1">
+
+                        <img class="img-fluid my-5" src="./assets/img/abos2.jpg">
+
+                        <div class="col-8 mx-auto">
+
+                            <p class="mt-3 text-center" style="background-color: #292929; color: white;">EMPRENDEDORES</p>
+
+                        </div>
+
+                        <p class="title-card-1 mb-4 mt-3" style="font-size:80%">Trabajo en conjunto con jóvenes estudiantes y emprendedores.</p>
+
+                        <p class="text-card-1 text-justify" style="font-size:80%">
+
+                            <strong>En CC&A Abogados, tenemos como convicción apoyar a los jóvenes.</strong> Estamos comprometidos a impulsarlos, brindándoles las herramientas y conocimientos necesarios para que así puedan incursionar en el ámbito corporativo.<br><br>
+
+                            Siempre bajo un marco de respeto y profesionalismo, donde promovemos los valores éticos que debe tener todo abogado, como pilar fundamental,<strong> además de realizar prácticas y trabajo en equipo. </strong><br><br>
+
+                            <strong>Contamos con convenios con instituciones universitarias como UNITEC, ETAC y AZTECA,</strong> con la finalidad de inspirar a los estudiantes y profesionistas recién egresados.
+
+
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <a class="col-md-6 col-lg-4 link-no-underline my-3">
+
+                    <div class="card card-body p-4">
+
+                        <img class="img-fluid" src="./assets/img/blog/3.png">
+
+                        <div class="col-8 mx-auto">
+
+                            <p class="mt-3 text-center" style="background-color: #292929; color: white;">CERTIFICACIONES</p>
+
+                        </div>
+
+                        <p class="title-card-1 mb-4 mt-3" style="font-size:80%">Competencia laboral en el estándar de competencia.</p>
+
+                        <p class="text-card-1 text-justify" style="font-size:80%">
+
+                            <strong>CC&A Abogados. Cuenta con </strong></strong>certificaciones como <strong> “PRODUCTOS DE CREDITO INFONAVIT, EVALUACIÓN DE COMPETENCIAS”, entre otras,</strong> las cuales permiten brindar un servicio de calidad. <br><br>
+
+                            <strong>Las certificaciones ayudan a ofrecer análisis de ofertas que se ajusten a las necesidades del cliente,</strong> guías de manejo en <strong>cuestiones legales, recopilación de documentos necesarios para realizar la compra y venta de un “inmueble”</strong> y tener un mejor desempeño en todas las gestiones requeridas. <br><br>
+
+                            Todo esto, siempre pensado tener un acompañamiento más integral a los clientes<br><br>
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!--  -->
+
+                <!-- <a class="col-md-6 col-lg-4 link-no-underline my-3">
+
+                    <div class="card card-body p-4">
+
+                        <img class="img-fluid" src="./assets/img/blog/4.png">
+
+                        <div class="col-8 mx-auto">
+
+                            <p class="mt-3 text-center" style="background-color: #292929; color: white;">SEPLAFI</p>
+
+                        </div>
+
+                      <p class="title-card-1 mb-4 mt-3" style="font-size:80%">Competencia laboral en el estándar de competencia.</p>
+
+                        <p class="text-card-1 text-justify" style="font-size:80%">
+
+                            Tenemos más de 10 años conociendo a su titular, quien siempre ha trabajado con entusiasmo, profesionalismo y entrega en resolver nuestros problemas y dando soluciones satisfactorias, por tal motivo damos nuestro voto de calidad a su servicio.
+
+                        </p>
+
+                        <br>
+
+                    </div>
+
+                </a> -->
+
+                <!--  -->
+
+                <!-- <a class="col-md-6 col-lg-4 link-no-underline my-3">
+
+                    <div class="card card-body p-4">
+
+                        <img class="img-fluid" src="./assets/img/blog/5.png">
+
+                        <div class="col-8 mx-auto">
+
+                            <p class="mt-3 text-center" style="background-color: #292929; color: white;">CC&A ABOGADOS</p>
+
+                        </div>
+
+                        <p class="text-card-1 text-justify" style="font-size:80%">
+
+                            En CCA la cultura de excelencia está en su ADN, lo que les ha llevado a ofrecer soluciones legales de carácter integral, con un alto énfasis en sus clientes, trabajando de la mano, brindando soluciones certeras e innovadoras que los distinguen de los demás.” Todo el éxito CCA, en hora buena.
+
+                        </p>
+
+                    </div>
+
+                </a> -->
+
+                <!--  -->
+
+                <!-- <a class="col-md-6 col-lg-4 link-no-underline my-3">
+
+                    <div class="card card-body p-4">
+
+                        <img class="img-fluid" src="./assets/img/blog/6.png">
+
+                        <div class="col-8 mx-auto">
+
+                            <p class="mt-3 text-center" style="background-color: #292929; color: white;">HEINEKEN</p>
+
+                        </div>
+
+                        <p class="text-card-1 text-justify" style="font-size:80%">
+
+
+
+                            Satisfechos con su servicio y dedicación deseamos un futuro de excelencia.
+
+                            <br>
+
+                            <br>
+
+                            <br>
+
+                            <br>
+
+                            <br>
+
+                            <br>
+
+                        </p>
+
+                    </div>
+
+                </a> -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer style="background-color:#000 !important">
+
+        <div class="row col-12 p-0 m-0">
+
+            <div class="col-12 text-center mt-4">
+
+                <img src="assets/img/Iconos/logo.png" width="200" />
+
+            </div>
+
+            <div class="col-12 text-center">
+
+                <hr class="hr-white">
+
+                <p class="copyright text-center"> Copyright © 2020 CCA Abogados. Todos los derechos reservados.</p>
+
+                <small class="text-white">© Desarrollado por Deskrive</small>
+
+            </div>
+
+            <div class="col-12 text-center">
+
+                <a href="https://www.facebook.com/Constantino-Castro-y-Asociados-2321299471471901"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" /></a>
+
+                <a href="https://twitter.com/castro_despacho">
+
+                    <img src="./assets/img/social-network/icons8-twitter.svg" width="30" />
+
+                </a>
+
+                <a href="https://www.instagram.com/cca_abogados/">
+
+                    <img src="./assets/img/social-network/instagram.png" width="30" />
+
+                </a>
+
+                <!--<a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
+
+                    <img src="./assets/img/social-network/linkedin.png" width="30" />
+
+                </a>-->
+
+                <a href="https://www.youtube.com">
+
+                    <img src="./assets/img/social-network/youtube.png" width="30" />
+
+                </a>
+
+            </div>
+
+            <div class="col-12 text-center">
+
+                <hr class="hr-white">
+
+            </div>
+
+            <br>
+
+        </div>
+
+        <div class="row col-12 m-0 px-5">
+
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+
+                <div class="row pt-3">
+
+                    <div class=" text-center col-md-1 mt-2">
+
+                        <img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20"></img>
+
+                    </div>
+
+                    <div class=" col-md-10">
+
+                        <p class="text-white text-center letter-roboto">Plaza San Buenaventura 1-29,
+
+                            <br /> Ixtapaluca, Estado de México. CP 56530
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col-12 col-md-4 mx-auto border-right-footer text-left">
+
+                <div class="row pt-3">
+
+                    <div class="text-center col-md-1  ml-auto mt-2">
+
+                        <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20"></img>
+
+                    </div>
+
+                    <div class="col-md-8 col-lg-6 mr-auto">
+
+                        <p class="text-white text-center letter-roboto"><a class="text-white" href="tel:+525550878159">55-50-87-81-59</a><br>
+
+                            <a class="text-white" href="tel:+525534042896">55-34-04-28-96</a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-4 mx-auto text-left">
+
+                <div class="row pt-4 mt-1">
+
+                    <div class="col-lg-1 ml-auto text-center">
+
+                        <img src="./assets/img/Iconos/correo.svg" class="" width="20"></img>
+
+                    </div>
+
+                    <div class="col-md-12 col-lg-8 col-xl-8 mr-auto">
+
+                        <p class="text-white text-center letter-roboto">
+
+                            <a>constantinoca.abogados@gmail.com</a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="d-block">
+
+                <a target="_black" href="https://api.whatsapp.com/send?phone=+525534042896text=hola,%20¿qué%20tal%20estás?" class="whatsapp-button link-no-underline text-white"><i class="fab fa-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+            <div class="d-block d-md-none">
+
+                <a target="_black" href="tel:+525550878159" class="phone-button link-no-underline text-white"><i class="fas fa-phone-alt"></i></a>
+
+            </div>
+
+        </div>
+
+        <!-- Navbar -->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+        <script src="./assets/js/animations.js"></script>
+
+        <script src="./assets/js/carrousel.js"></script>
+
+        <script src="./assets/js/info-sections.js"></script>
+
+</body>
+
+
+
+</html>

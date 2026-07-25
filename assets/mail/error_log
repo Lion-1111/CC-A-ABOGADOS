@@ -1,0 +1,13 @@
+[06-Jul-2022 04:54:13 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 27
+[06-Jul-2022 04:58:13 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 27
+[06-Jul-2022 05:02:52 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 24
+[06-Jul-2022 05:08:51 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26
+[06-Jul-2022 05:09:39 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26
+[06-Jul-2022 05:11:05 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 23
+[06-Jul-2022 05:13:23 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26
+[06-Jul-2022 05:15:19 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26
+[06-Jul-2022 05:19:18 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26
+[06-Jul-2022 05:21:21 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 25
+[06-Jul-2022 05:29:06 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26
+[06-Jul-2022 05:31:09 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26
+[06-Jul-2022 12:28:54 UTC] PHP Notice:  Undefined variable: to2 in /home/abogadoscca/public_html/assets/mail/contact_me.php on line 26

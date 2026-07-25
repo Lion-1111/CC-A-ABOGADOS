@@ -1,0 +1,1898 @@
+# Copyright (C) 2021 Elicus
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Blog Extras 2.6.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/divi-blog-extras\n"
+"POT-Creation-Date: 2021-12-06 13:14:32+00:00\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/modules/BlogExtras/BlogExtras.php:1271
+#: includes/modules/BlogExtras/BlogExtras.php:2230
+#: includes/modules/BlogExtras/BlogExtras.php:2256
+msgid "1"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1272
+#: includes/modules/BlogExtras/BlogExtras.php:2231
+#: includes/modules/BlogExtras/BlogExtras.php:2257
+#: includes/widgets/BlogExtras/BlogExtras.php:474
+msgid "2"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1273
+#: includes/modules/BlogExtras/BlogExtras.php:2232
+#: includes/modules/BlogExtras/BlogExtras.php:2258
+#: includes/widgets/BlogExtras/BlogExtras.php:475
+msgid "3"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1274
+#: includes/modules/BlogExtras/BlogExtras.php:2233
+#: includes/modules/BlogExtras/BlogExtras.php:2259
+msgid "4"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1275
+#: includes/modules/BlogExtras/BlogExtras.php:2234
+#: includes/modules/BlogExtras/BlogExtras.php:2260
+msgid "5"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2235
+#: includes/modules/BlogExtras/BlogExtras.php:2261
+msgid "6"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2236
+#: includes/modules/BlogExtras/BlogExtras.php:2262
+msgid "7"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2237
+#: includes/modules/BlogExtras/BlogExtras.php:2263
+msgid "8"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2238
+#: includes/modules/BlogExtras/BlogExtras.php:2264
+msgid "9"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2239
+#: includes/modules/BlogExtras/BlogExtras.php:2265
+msgid "10"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:110
+#: includes/modules/BlogExtras/BlogExtras.php:1798
+msgid "Settings"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:173 includes/DiviBlogExtras.php:201
+#: includes/DiviBlogExtras.php:248
+#: includes/modules/BlogExtras/BlogExtras.php:2062
+msgid "Text Color"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:177 includes/DiviBlogExtras.php:249
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:181 includes/DiviBlogExtras.php:213
+#: includes/DiviBlogExtras.php:250
+msgid "Background Color"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:185 includes/DiviBlogExtras.php:251
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:207
+msgid "Text Color Hover"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:219
+msgid "Background Color Hover"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:430
+#: includes/modules/BlogExtras/BlogExtras.php:2896
+#: includes/modules/BlogExtras/BlogExtras.php:4150
+msgid "Read More"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:432 includes/DiviBlogExtras.php:441
+#: includes/DiviBlogExtras.php:448 includes/DiviBlogExtras.php:457
+#: includes/DiviBlogExtras.php:464 includes/DiviBlogExtras.php:473
+#: includes/modules/BlogExtras/BlogExtras.php:622
+#: includes/modules/BlogExtras/BlogExtras.php:624
+#: includes/modules/BlogExtras/BlogExtras.php:627
+#: includes/modules/BlogExtras/BlogExtras.php:630
+#: includes/modules/BlogExtras/BlogExtras.php:2898
+#: includes/modules/BlogExtras/BlogExtras.php:2907
+#: includes/modules/BlogExtras/BlogExtras.php:2914
+#: includes/modules/BlogExtras/BlogExtras.php:2923
+#: includes/modules/BlogExtras/BlogExtras.php:2930
+#: includes/modules/BlogExtras/BlogExtras.php:2939
+#: includes/modules/BlogExtras/BlogExtras.php:2948
+#: includes/modules/BlogExtras/BlogExtras.php:4152
+#: includes/modules/BlogExtras/BlogExtras.php:4161
+#: includes/modules/BlogExtras/BlogExtras.php:4168
+#: includes/modules/BlogExtras/BlogExtras.php:4177
+#: includes/modules/BlogExtras/BlogExtras.php:4184
+#: includes/modules/BlogExtras/BlogExtras.php:4193
+#: includes/modules/BlogExtras/BlogExtras.php:4202
+#: includes/panel/settings.php:250 includes/panel/settings.php:313
+#: includes/panel/settings.php:388 includes/panel/settings.php:441
+#: includes/panel/settings.php:518 includes/panel/settings.php:553
+#: includes/panel/settings.php:595 includes/panel/settings.php:683
+#: includes/panel/settings.php:697 includes/panel/settings.php:764
+#: includes/panel/tabs/custom-posts/general/options.php:11
+msgid "%s"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:439
+#: includes/modules/BlogExtras/BlogExtras.php:2905
+#: includes/modules/BlogExtras/BlogExtras.php:4159
+msgid "Load More"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:446
+#: includes/modules/BlogExtras/BlogExtras.php:2912
+#: includes/modules/BlogExtras/BlogExtras.php:4166
+msgid "Show Few"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:455
+#: includes/modules/BlogExtras/BlogExtras.php:2921
+#: includes/modules/BlogExtras/BlogExtras.php:4175
+msgid "« Previous"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:462
+#: includes/modules/BlogExtras/BlogExtras.php:2928
+#: includes/modules/BlogExtras/BlogExtras.php:4182
+msgid "Next »"
+msgstr ""
+
+#: includes/DiviBlogExtras.php:471
+#: includes/modules/BlogExtras/BlogExtras.php:1808
+#: includes/modules/BlogExtras/BlogExtras.php:2937
+#: includes/modules/BlogExtras/BlogExtras.php:4191
+msgid "min read"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:57
+msgid "Layout"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:60
+#: includes/modules/BlogExtras/BlogExtras.php:137
+msgid "Slider"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:63
+msgid "Query"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:66
+msgid "Elements"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:69
+#: includes/modules/BlogExtras/BlogExtras.php:133
+msgid "Pagination"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:76
+msgid "Text"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:80
+#: includes/modules/BlogExtras/BlogExtras.php:230
+#: includes/modules/BlogExtras/BlogExtras.php:583
+#: includes/modules/BlogExtras/BlogExtras.php:966
+msgid "Title"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:84
+#: includes/modules/BlogExtras/BlogExtras.php:268
+msgid "Body"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:100
+#: includes/modules/BlogExtras/BlogExtras.php:587
+msgid "Post Meta"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:104
+#: includes/modules/BlogExtras/BlogExtras.php:373
+msgid "Full Width Post Date"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:108
+#: includes/modules/BlogExtras/BlogExtras.php:154
+msgid "Category"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:112
+msgid "Filterable Category"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:125
+msgid "Read More Settings"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:129
+msgid "Overlay"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:141
+msgid "Mobile Settings"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:192
+msgid "Active Category"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:303
+msgid "Link"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:339
+msgid "Meta"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:409
+msgid "Pagination Number"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:455
+msgid "Ajax Pagination Button"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:476
+#: includes/modules/BlogExtras/BlogExtras.php:595
+#: includes/modules/BlogExtras/BlogExtras.php:1615
+msgid "Read More Button"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:591
+msgid "Read More Link"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:608
+msgid "Ajax Load More Pagnation"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:609
+msgid "Numbered Pagination"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:610
+msgid "Filterable Categories"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:635
+msgid "Post Type"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:642
+msgid "Here you can choose the Post Type."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:648
+#: includes/modules/BlogExtras/BlogExtras.php:741
+#: includes/modules/BlogExtras/BlogExtras.php:831
+msgid "Use Category Filterable Blog"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:652
+#: includes/modules/BlogExtras/BlogExtras.php:675
+#: includes/modules/BlogExtras/BlogExtras.php:745
+#: includes/modules/BlogExtras/BlogExtras.php:767
+#: includes/modules/BlogExtras/BlogExtras.php:835
+#: includes/modules/BlogExtras/BlogExtras.php:857
+#: includes/modules/BlogExtras/BlogExtras.php:986
+#: includes/modules/BlogExtras/BlogExtras.php:1353
+#: includes/modules/BlogExtras/BlogExtras.php:1369
+#: includes/modules/BlogExtras/BlogExtras.php:1484
+#: includes/modules/BlogExtras/BlogExtras.php:1659
+#: includes/modules/BlogExtras/BlogExtras.php:1675
+#: includes/modules/BlogExtras/BlogExtras.php:1691
+#: includes/modules/BlogExtras/BlogExtras.php:1707
+#: includes/modules/BlogExtras/BlogExtras.php:1772
+#: includes/modules/BlogExtras/BlogExtras.php:1789
+#: includes/modules/BlogExtras/BlogExtras.php:1836
+#: includes/modules/BlogExtras/BlogExtras.php:2006
+#: includes/modules/BlogExtras/BlogExtras.php:2074
+#: includes/modules/BlogExtras/BlogExtras.php:2302
+#: includes/modules/BlogExtras/BlogExtras.php:2387
+#: includes/modules/BlogExtras/BlogExtras.php:2403
+#: includes/modules/BlogExtras/BlogExtras.php:2432
+#: includes/modules/BlogExtras/BlogExtras.php:2461
+#: includes/modules/BlogExtras/BlogExtras.php:2478
+#: includes/modules/BlogExtras/BlogExtras.php:2496
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:653
+#: includes/modules/BlogExtras/BlogExtras.php:676
+#: includes/modules/BlogExtras/BlogExtras.php:746
+#: includes/modules/BlogExtras/BlogExtras.php:768
+#: includes/modules/BlogExtras/BlogExtras.php:836
+#: includes/modules/BlogExtras/BlogExtras.php:858
+#: includes/modules/BlogExtras/BlogExtras.php:987
+#: includes/modules/BlogExtras/BlogExtras.php:1354
+#: includes/modules/BlogExtras/BlogExtras.php:1370
+#: includes/modules/BlogExtras/BlogExtras.php:1483
+#: includes/modules/BlogExtras/BlogExtras.php:1660
+#: includes/modules/BlogExtras/BlogExtras.php:1676
+#: includes/modules/BlogExtras/BlogExtras.php:1692
+#: includes/modules/BlogExtras/BlogExtras.php:1708
+#: includes/modules/BlogExtras/BlogExtras.php:1773
+#: includes/modules/BlogExtras/BlogExtras.php:1788
+#: includes/modules/BlogExtras/BlogExtras.php:1835
+#: includes/modules/BlogExtras/BlogExtras.php:2005
+#: includes/modules/BlogExtras/BlogExtras.php:2075
+#: includes/modules/BlogExtras/BlogExtras.php:2303
+#: includes/modules/BlogExtras/BlogExtras.php:2388
+#: includes/modules/BlogExtras/BlogExtras.php:2404
+#: includes/modules/BlogExtras/BlogExtras.php:2433
+#: includes/modules/BlogExtras/BlogExtras.php:2462
+#: includes/modules/BlogExtras/BlogExtras.php:2479
+#: includes/modules/BlogExtras/BlogExtras.php:2497
+msgid "No"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:665
+#: includes/modules/BlogExtras/BlogExtras.php:689
+#: includes/modules/BlogExtras/BlogExtras.php:757
+#: includes/modules/BlogExtras/BlogExtras.php:780
+#: includes/modules/BlogExtras/BlogExtras.php:847
+#: includes/modules/BlogExtras/BlogExtras.php:870
+msgid "This will turn filterable blog on and off."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:671
+#: includes/modules/BlogExtras/BlogExtras.php:763
+#: includes/modules/BlogExtras/BlogExtras.php:853
+msgid "Hamburger Category Filter on Tablet & Mobile"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:695
+#: includes/modules/BlogExtras/BlogExtras.php:786
+#: includes/modules/BlogExtras/BlogExtras.php:876
+msgid "Show All Posts Link"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:699
+#: includes/modules/BlogExtras/BlogExtras.php:790
+#: includes/modules/BlogExtras/BlogExtras.php:880
+#: includes/modules/BlogExtras/BlogExtras.php:1502
+#: includes/modules/BlogExtras/BlogExtras.php:1597
+#: includes/modules/BlogExtras/BlogExtras.php:1619
+#: includes/modules/BlogExtras/BlogExtras.php:2371
+msgid "Off"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:700
+#: includes/modules/BlogExtras/BlogExtras.php:791
+#: includes/modules/BlogExtras/BlogExtras.php:881
+#: includes/modules/BlogExtras/BlogExtras.php:1503
+#: includes/modules/BlogExtras/BlogExtras.php:1598
+#: includes/modules/BlogExtras/BlogExtras.php:1620
+#: includes/modules/BlogExtras/BlogExtras.php:2372
+msgid "On"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:713
+#: includes/modules/BlogExtras/BlogExtras.php:803
+#: includes/modules/BlogExtras/BlogExtras.php:893
+msgid "Here you can define whether to show all posts link or not."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:719
+#: includes/modules/BlogExtras/BlogExtras.php:809
+#: includes/modules/BlogExtras/BlogExtras.php:899
+msgid "All Posts Text"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:722
+#: includes/modules/BlogExtras/BlogExtras.php:812
+#: includes/modules/BlogExtras/BlogExtras.php:902
+#: includes/modules/BlogExtras/BlogExtras.php:2946
+#: includes/modules/BlogExtras/BlogExtras.php:4200
+msgid "All"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:734
+#: includes/modules/BlogExtras/BlogExtras.php:823
+#: includes/modules/BlogExtras/BlogExtras.php:913
+msgid "Here you can define the All Posts text you would like to display."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:920
+msgid "Post Count"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:926
+msgid "Choose how many posts you would like to display per page."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:932
+msgid "Post Offset Number"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:938
+msgid ""
+"Choose how many posts you would like to skip. These posts will not be shown "
+"in the feed."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:944
+msgid "Order"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:948
+msgid "DESC"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:949
+msgid "ASC"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:954
+msgid "Here you can choose the order of your posts."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:960
+msgid "Order by"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:964
+msgid "Date"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:965
+msgid "Modified Date"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:967
+msgid "Slug"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:968
+msgid "ID"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:969
+msgid "Random"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:970
+msgid "Relevance"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:971
+msgid "None"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:976
+msgid "Here you can choose the order type of your posts."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:982
+msgid "Include Current Taxonomy Posts"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:992
+msgid ""
+"Here you can choose whether the posts display from current category/taxonomy."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:998
+msgid "Current Taxonomies Relation"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1002
+#: includes/modules/BlogExtras/BlogExtras.php:1111
+msgid "OR"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1003
+#: includes/modules/BlogExtras/BlogExtras.php:1112
+msgid "AND"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1011
+msgid "This will set the relationship between current taxonomies."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1017
+msgid "Filterable Category Background"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1036
+msgid ""
+"Here you can adjust the background style of the filterable category by "
+"customizing the background color, gradient, and image."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1039
+msgid "Filterable Active Category Background"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1058
+msgid ""
+"Here you can adjust the background style of the filterable active category "
+"by customizing the background color, gradient, and image."
+msgstr ""
+
+#. translators: %s: taxonomy label.
+#: includes/modules/BlogExtras/BlogExtras.php:1086
+msgid "Include %1$s"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1096
+msgid "Choose which terms posts you would like to include in the feed."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1107
+msgid "Taxonomies Relation"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1120
+msgid "This will set the relationship between taxonomies."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1130
+msgid "Include Categories"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1138
+msgid "Choose which categories you would like to include in the feed."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1153
+msgid "Blog Layout"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1179
+msgid "Here you can choose the design that you want for the blog."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1185
+msgid "Slider Variant"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1200
+#: includes/modules/BlogExtras/BlogExtras.php:1261
+msgid "Here you can choose the design that you want for the masonry layout."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1206
+#: includes/modules/BlogExtras/BlogExtras.php:1401
+#: includes/modules/BlogExtras/BlogExtras.php:1439
+msgid "Featured Image Position"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1210
+#: includes/modules/BlogExtras/BlogExtras.php:1405
+#: includes/modules/BlogExtras/BlogExtras.php:1443
+msgid "Top"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1211
+#: includes/modules/BlogExtras/BlogExtras.php:1406
+#: includes/modules/BlogExtras/BlogExtras.php:1444
+msgid "Background"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1212
+#: includes/modules/BlogExtras/BlogExtras.php:1407
+#: includes/modules/BlogExtras/BlogExtras.php:1445
+msgid "Alternate"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1224
+#: includes/modules/BlogExtras/BlogExtras.php:1418
+#: includes/modules/BlogExtras/BlogExtras.php:1457
+msgid "Here you can choose the position of the thumbnails."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1230
+#: includes/modules/BlogExtras/BlogExtras.php:1424
+#: includes/modules/BlogExtras/BlogExtras.php:1463
+msgid "Background Overlay"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1243
+#: includes/modules/BlogExtras/BlogExtras.php:1436
+#: includes/modules/BlogExtras/BlogExtras.php:1476
+msgid "This will set the background overlay color."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1246
+msgid "Masonry Variant"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1267
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1285
+msgid "Here you can select the number of columns for the Masonry Grid layout."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1291
+msgid "Column Spacing"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1310
+msgid "Increase or decrease spacing between columns."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1313
+msgid "Include Posts by ID"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1319
+msgid ""
+"If you would like to display specific posts then enter their post ids here "
+"comma separated."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1325
+msgid "Exclude Posts by ID"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1331
+msgid ""
+"If you would like to exclude specific posts from the loop then enter their "
+"post ids here comma separated."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1337
+msgid "Meta Date Format"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1343
+msgid ""
+"If you would like to adjust the date format, input the appropriate PHP date "
+"format here."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1349
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1359
+msgid "This will decide whether to ignore sticky posts or not."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1365
+#: includes/modules/BlogExtras/BlogExtras.php:2070
+#: includes/widgets/BlogExtras/BlogExtras.php:616
+msgid "Show Featured Image"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1375
+msgid "This will turn thumbnails on and off."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1381
+msgid "Featured Image Size"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1385
+msgid "Medium"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1386
+msgid "Large"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1387
+msgid "Full"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1395
+msgid "Here you can select the size of the featured image."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1479
+msgid "Show Social Icons"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1492
+msgid "Turn social sharing icons on or off."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1498
+msgid "Featured Image Overlay"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1511
+msgid ""
+"If enabled, an overlay color and icon will be displayed when a visitors "
+"hovers over the featured image of a post."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1517
+msgid "Overlay Icon Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1528
+msgid "Here you can define a custom color for the Overlay Icon"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1531
+msgid "Hover Overlay Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1542
+msgid "Here you can define a custom color for the Overlay"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1545
+msgid "Hover Icon Picker"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1557
+msgid "Here you can define a custom icon for the Overlay"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1563
+msgid "Content"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1567
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1568
+msgid "Show Content"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1573
+msgid ""
+"Showing the full content will not truncate your posts on the index page. "
+"Showing the excerpt will only display your excerpt text."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1579
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1587
+msgid ""
+"Here you can define excerpt length in characters, if 0 no excerpt will be "
+"shown. However this won't work with the manual excerpt defined in the post."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1593
+msgid "Show Read More Link"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1609
+msgid ""
+"Here you can define whether to show \"read more\" link after the excerpts or "
+"not."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1632
+msgid ""
+"Here you can define whether to show \"read more\" button after the excerpts "
+"or not."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1638
+msgid "Read More Text"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1649
+msgid "Here you can define \"read more\" button/link text."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1655
+#: includes/widgets/BlogExtras/BlogExtras.php:634
+msgid "Show Author"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1665
+msgid "Turn on or off the Author link."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1671
+#: includes/widgets/BlogExtras/BlogExtras.php:638
+msgid "Show Date"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1681
+msgid "Turn the Date on or off."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1687
+msgid "Show Categories/Terms"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1697
+msgid "Turn the category/terms links on or off."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1703
+msgid "Pick Colors From Categories/Terms"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1716
+msgid ""
+"Here you can choose whether or not to pick the color for category/term "
+"background from category settings in the WordPress dashboard that comes with "
+"the plugin. Also, it will be prioritize over below category/term colors' "
+"settings."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1722
+msgid "Category/Term Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1731
+msgid "Here you can define a custom color for the category/term text."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1734
+msgid "Category/Term Background"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1743
+msgid "Here you can define a custom color for the category/term background."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1746
+msgid "Category/Term Hover Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1754
+msgid "Here you can define a custom color for the category/term text on hover."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1757
+msgid "Category/Term Hover Background"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1765
+msgid ""
+"Here you can define a custom color for the category/term background on hover."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1768
+msgid "Show Comment Count"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1778
+msgid "Turn Comment Count on and off."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1784
+msgid "Show Read Time"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1796
+msgid ""
+"Here you can define whether to show Read Time or not. And option to change "
+"words per minute is in the plugin"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1805
+msgid "Read Time Text"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1814
+msgid "Here you can define custom read time text."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1820
+msgid "No Results Text"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1825
+msgid "Here you can define custom no result text."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1831
+msgid "Show Pagination"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1847
+msgid "Show Pagination or not."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1853
+msgid "Pagination Type"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1857
+msgid "Ajax Load More"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1858
+msgid "Numbered"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1877
+msgid "Here you can choose the Pagination Type."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1883
+msgid "Load More Button Text"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1895
+msgid "Here you can define Load More Button text."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1901
+msgid "Show Less Button Text"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1913
+msgid "Here you can define Show Less Button text."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1919
+msgid "Loader Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1931
+msgid "Here you can define a custom color for the ajax pagination loader."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1934
+msgid "Number Background Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1948
+msgid ""
+"Here you can define a custom background color for the pagination number."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1951
+msgid "Number Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1964
+msgid "Here you can define a custom color for the pagination number."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1967
+msgid "Active Number Background Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1981
+msgid ""
+"Here you can define a custom background color for the active pagination "
+"number."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1984
+msgid "Active Number Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:1998
+msgid "Here you can define a custom color for the active pagination number."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2001
+msgid "Use WP-PageNavi"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2018
+msgid "Use Pagination of WP-PageNavi plugin if installed."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2024
+msgid "Next Link"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2037
+msgid "Here you can define Next Link text in numbered pagination."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2043
+msgid "Prev Link"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2056
+msgid "Here you can define Previous Link text in numbered pagination."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2067
+msgid "Here you can change the Text Color."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2083
+msgid "This will turn thumbnails on and off on mobile devices."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2086
+msgid "Filterable Categories Margin"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2102
+msgid ""
+"Margin adds extra space to the outside of the element, increasing the "
+"distance between the element and other items on the page."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2105
+msgid "Filterable Categories Padding"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2120
+#: includes/modules/BlogExtras/BlogExtras.php:2543
+msgid ""
+"Padding adds extra space to the inside of the element, increasing the "
+"distance between the edge of the element and its inner contents."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2123
+msgid "Single Post Link Target"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2127
+msgid "In the same window"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2128
+msgid "In the new tab"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2133
+msgid "Here you can choose whether or not post link opens in a new window."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2139
+msgid "Disable on"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2142
+msgid "Phone"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2143
+msgid "Tablet"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2144
+msgid "Desktop"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2150
+msgid "This will disable the module on selected devices"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2153
+msgid "Admin Label"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2156
+msgid ""
+"This will change the label of the module in the builder for easy "
+"identification."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2159
+msgid "CSS ID"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2167
+msgid "CSS Class"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2175
+msgid "Enable Scroll to Top Animation for"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2183
+msgid ""
+"Here you can choose where you would like to disable the scroll to top "
+"animation."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2189
+msgid "Single Post Animation"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2193
+msgid "Top To Bottom"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2194
+msgid "Left To Right"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2195
+msgid "Right To Left"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2196
+msgid "Bottom To Top"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2197
+msgid "No Animation"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2202
+msgid "Here you can choose the direction of the lazy-loading animation."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2208
+msgid "Slide Effect"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2212
+msgid "Slide"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2213
+msgid "Cube"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2214
+msgid "Coverflow"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2215
+msgid "Flip"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2223
+msgid "Here you can choose the slide animation effect."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2226
+msgid "Number of Slides Per View"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2249
+msgid "Here you can choose the number of posts to display per view."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2252
+msgid "Number of Slides Per Group"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2275
+msgid "Here you can choose the number of slides per group to slide by."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2278
+msgid "Space between Slides"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2295
+msgid ""
+"Move the slider or input the value to increse or decrease the space between "
+"slides."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2298
+msgid "Enable Slide Shadow"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2312
+msgid "Enable Slide Shadow For Coverflow Effect."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2315
+msgid "Shadow Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2326
+msgid "Here you can select color for the Shadow."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2329
+msgid "Coverflow Rotate"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2345
+msgid "Coverflow Rotate Slide."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2348
+msgid "Coverflow Depth"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2364
+msgid "Coverflow Depth Slide."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2367
+msgid "Equalize Slides Height"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2380
+msgid "Here you can choose whether or not equalize slides height."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2383
+msgid "Enable Loop"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2396
+msgid "Here you can enable loop for the slides."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2399
+msgid "Autoplay"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2412
+msgid "This controls the auto play the slider."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2415
+msgid "Autoplay Delay"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2425
+msgid "This controls the time of the slide before the transition."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2428
+msgid "Pause On Hover"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2442
+msgid "Control for pausing slides on mouse hover."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2445
+msgid "Transition Duration"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2454
+msgid ""
+"Here you can specify the duration of transition for each slide in "
+"miliseconds."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2457
+msgid "Show Arrows"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2471
+msgid "Choose whether or not the previous & next arrows should be visible."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2474
+msgid "Show Arrows On Hover"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2489
+msgid "Choose whether or not the previous and next arrows should be visible."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2492
+msgid "Show Dots Pagination"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2506
+msgid "This setting will turn on and off the pagination of the slider."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2509
+msgid "Dots Pagination Style"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2513
+msgid "Solid Dot"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2514
+msgid "Transparent Dot"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2515
+msgid "Stretched Dot"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2516
+msgid "Line"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2517
+msgid "Rounded Line"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2518
+msgid "Squared Dot"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2527
+msgid "control dot style"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2530
+msgid "Arrows Padding"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2546
+msgid "Arrow Font Size"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2561
+msgid "Here you can choose the arrow font size."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2564
+msgid "Arrow Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2574
+msgid "Here you can define color for the arrow"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2577
+msgid "Arrow Background"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2587
+msgid ""
+"Here you can choose a custom color to be used for the shape background of "
+"arrows."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2590
+msgid "Arrow Background Border"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2605
+msgid ""
+"Move the slider or input the value to increase or decrease the border size "
+"of the arrow background."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2608
+msgid "Arrow Background Border Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2618
+msgid "Here you can choose a custom color to be used for the arrow border"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2621
+msgid "Active Dot Pagination Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2631
+msgid "Here you can define color for the active pagination item."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2634
+msgid "Inactive Dot Pagination Color"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:2644
+msgid "Here you can define color for the inactive pagination item."
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:3554
+#: includes/modules/BlogExtras/BlogExtras.php:4854
+#: includes/widgets/BlogExtras/BlogExtras.php:161
+msgid "No Results Found"
+msgstr ""
+
+#: includes/modules/BlogExtras/BlogExtras.php:3555
+#: includes/modules/BlogExtras/BlogExtras.php:4855
+msgid ""
+"The posts you requested could not be found. Try changing your module "
+"settings or create some new posts."
+msgstr ""
+
+#: includes/modules/BlogExtras/layouts/full_width.php:187
+#: includes/modules/BlogExtras/layouts/full_width_background.php:120
+#: includes/modules/BlogExtras/layouts/grid_extended.php:158
+msgid "By"
+msgstr ""
+
+#: includes/panel/functions.php:89
+msgid "version"
+msgstr ""
+
+#: includes/panel/functions.php:91
+msgid "is out of date. Core version is"
+msgstr ""
+
+#: includes/panel/settings.php:165 includes/panel/settings.php:195
+msgid "Save Changes"
+msgstr ""
+
+#: includes/panel/settings.php:191
+msgid "Help"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:17
+#: includes/panel/tabs/archives/category/options.php:17
+#: includes/panel/tabs/archives/date/options.php:17
+#: includes/panel/tabs/archives/tag/options.php:17
+#: includes/panel/tabs/archives/taxonomy/options.php:17
+#: includes/panel/tabs/archives/taxonomy/options.php:52
+msgid "Select"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:31
+#: includes/panel/tabs/archives/category/options.php:31
+#: includes/panel/tabs/archives/date/options.php:31
+#: includes/panel/tabs/archives/tag/options.php:31
+#: includes/panel/tabs/archives/taxonomy/options.php:31
+msgid "Create"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:32
+#: includes/panel/tabs/archives/category/options.php:32
+#: includes/panel/tabs/archives/date/options.php:32
+#: includes/panel/tabs/archives/tag/options.php:32
+#: includes/panel/tabs/archives/taxonomy/options.php:32
+msgid "at least one Divi Library layout with Divi Blog Extras module in it."
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:37
+#: includes/panel/tabs/archives/category/options.php:37
+#: includes/panel/tabs/archives/date/options.php:37
+#: includes/panel/tabs/archives/tag/options.php:37
+#: includes/panel/tabs/archives/taxonomy/options.php:37
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:38
+#: includes/panel/tabs/archives/category/options.php:38
+#: includes/panel/tabs/archives/date/options.php:38
+#: includes/panel/tabs/archives/tag/options.php:38
+#: includes/panel/tabs/archives/taxonomy/options.php:38
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:39
+#: includes/panel/tabs/archives/category/options.php:39
+#: includes/panel/tabs/archives/date/options.php:39
+#: includes/panel/tabs/archives/tag/options.php:39
+#: includes/panel/tabs/archives/taxonomy/options.php:39
+msgid "Full Width"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:51
+msgid "Enable Author Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:63
+msgid ""
+"Enable this to use Divi Blog Extras module on Author Archives. In order to "
+"use this feature a layout must be saved first in the Divi Library and have "
+"Divi Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:69
+#: includes/panel/tabs/archives/category/options.php:69
+#: includes/panel/tabs/archives/date/options.php:69
+#: includes/panel/tabs/archives/tag/options.php:69
+#: includes/panel/tabs/archives/taxonomy/options.php:87
+#: includes/panel/tabs/archives/taxonomy/options.php:147
+msgid "Select Layout from Library"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:78
+msgid ""
+"Select a layout from the Divi Library to use as Author Archive. The layout "
+"must be saved first and have Divi Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:82
+#: includes/panel/tabs/archives/category/options.php:82
+#: includes/panel/tabs/archives/date/options.php:82
+#: includes/panel/tabs/archives/tag/options.php:82
+#: includes/panel/tabs/archives/taxonomy/options.php:100
+#: includes/panel/tabs/archives/taxonomy/options.php:160
+msgid "Select Sidebar"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:91
+msgid "Here you can select sidebar position for Author Archive."
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:98
+msgid "Assign Global Author Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/author/options.php:110
+msgid ""
+"Here you can specify a global layout from Divi Library for all Author "
+"Archives."
+msgstr ""
+
+#: includes/panel/tabs/archives/category/options.php:51
+msgid "Enable Category Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/category/options.php:63
+msgid ""
+"Here you can enable Divi Blog Extras to set your Archive page layouts. "
+"Recommended for older versions of Divi. For Divi 4.0 and above, the Archive "
+"pages can also be created from the Theme builder."
+msgstr ""
+
+#: includes/panel/tabs/archives/category/options.php:78
+msgid ""
+"Select a layout from the Divi Library to use as Category Archive. The layout "
+"must be saved first and have Divi Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/category/options.php:91
+msgid "Select Category Archive sidebar position here."
+msgstr ""
+
+#: includes/panel/tabs/archives/category/options.php:98
+msgid "Assign Category Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/category/options.php:110
+msgid ""
+"Set layout for Category Archive pages. This setting applies a selected "
+"layout from the Divi Library to all the Category Archives."
+msgstr ""
+
+#: includes/panel/tabs/archives/date/options.php:51
+msgid "Enable Date Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/date/options.php:63
+msgid ""
+"Enable this to use Divi Blog Extras module on Date Archives. In order to use "
+"this feature a layout must be saved first in the Divi Library and have Divi "
+"Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/date/options.php:78
+msgid ""
+"Select a layout from the Divi Library to use as date archive. The layout "
+"must be saved first and have Divi Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/date/options.php:91
+msgid "Here you can select sidebar position for Date Archive."
+msgstr ""
+
+#: includes/panel/tabs/archives/date/options.php:98
+msgid "Assign Global Date Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/date/options.php:110
+msgid ""
+"Here you can specify a global layout from Divi Library for all Date Archives."
+msgstr ""
+
+#: includes/panel/tabs/archives/tag/options.php:51
+msgid "Enable Tag Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/tag/options.php:63
+msgid ""
+"Enable this to use Divi Blog Extras module on Tag Archives. In order to use "
+"this feature a layout must be saved first in the Divi Library and have Divi "
+"Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/tag/options.php:78
+msgid ""
+"Select a layout from the Divi Library to use as Tag Archive. The layout must "
+"be saved first and have Divi Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/tag/options.php:91
+msgid "Here you can select sidebar position for Tag Archive."
+msgstr ""
+
+#: includes/panel/tabs/archives/tag/options.php:98
+msgid "Assign Global Tag Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/tag/options.php:110
+msgid ""
+"Here you can specify a global layout from Divi Library for all Tag Archives."
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:69
+msgid "Enable Taxonomy Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:81
+msgid ""
+"Enable this to use Divi Blog Extras for Taxonomy Archives. In order to use "
+"this feature a layout must be saved first in the Divi Library and have Divi "
+"Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:96
+msgid ""
+"Select a layout from the Divi Library to use as Taxonomy Archive. The layout "
+"must be saved first and have Divi Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:109
+msgid "Here you can select sidebar position for Taxonomy Archive."
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:116
+msgid "Assign Global Taxonomy Archive Layout"
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:128
+msgid ""
+"Here you can specify a global layout from Divi Library for all Taxonomy "
+"Archives."
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:134
+msgid "Select Taxonomy"
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:143
+msgid "Select a taxonomy"
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:156
+msgid ""
+"Select a layout from the Divi Library to use as taxonomy archive. The layout "
+"must be saved first and have Divi Blog Extras module on it."
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:169
+msgid "Select taxonomy archive sidebar position here."
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:182
+msgid "Assign separate Layout for each Taxonomy"
+msgstr ""
+
+#: includes/panel/tabs/archives/taxonomy/options.php:194
+msgid ""
+"Here you can specify separate layout for each Taxonomy. This setting has a "
+"higher importance and it will override the global Taxonomy for selected "
+"Taxonomies."
+msgstr ""
+
+#: includes/panel/tabs/custom-posts/general/options.php:23
+msgid "Enable Custom Post Types in Module"
+msgstr ""
+
+#: includes/panel/tabs/custom-posts/general/options.php:35
+msgid ""
+"Here you can enable to display Custom Post Types in Divi Blog Extras module."
+msgstr ""
+
+#: includes/panel/tabs/custom-posts/general/options.php:41
+msgid "Select Custom Post Types"
+msgstr ""
+
+#: includes/panel/tabs/custom-posts/general/options.php:53
+msgid ""
+"Here you can select the Custom Post Types for which you want to enable Divi "
+"Blog Extras module on the Divi page builder."
+msgstr ""
+
+#: includes/panel/tabs/custom-posts/general/options.php:59
+msgid "Enable Custom Taxonomies in Module"
+msgstr ""
+
+#: includes/panel/tabs/custom-posts/general/options.php:69
+msgid ""
+"Here you can enable to dsiplay checkbox with list of Taxonomies in the Divi "
+"Blog Extras module."
+msgstr ""
+
+#: includes/panel/tabs/general/general/options.php:11
+msgid "Words Per Minute"
+msgstr ""
+
+#: includes/panel/tabs/general/general/options.php:24
+msgid ""
+"Display Post Read Time depending upon the number of words an average user "
+"reads per minute."
+msgstr ""
+
+#: includes/panel/tabs/general/overrides/options.php:13
+msgid "Templates"
+msgstr ""
+
+#: includes/panel/tabs/general/overrides/options.php:24
+msgid "Here you can see the list of files that have been override by you."
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:9
+msgid ""
+"An advanced blog widget that gives you control on how to display suggested "
+"posts in the sidebar."
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:162
+msgid ""
+"The post you requested could not be found. Try changing your widget settings "
+"or add some new posts."
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:464
+msgid "List"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:465
+msgid "Tabbed"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:469
+msgid "Square"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:470
+msgid "Round"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:486
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:490
+msgid "Layout:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:504
+msgid "Number of Tabs:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:519
+msgid "Tab 1"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:521
+msgid "Tab 1 Title:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:525
+#: includes/widgets/BlogExtras/BlogExtras.php:549
+#: includes/widgets/BlogExtras/BlogExtras.php:573
+#: includes/widgets/BlogExtras/BlogExtras.php:602
+msgid "Select Post Categories:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:538
+#: includes/widgets/BlogExtras/BlogExtras.php:562
+#: includes/widgets/BlogExtras/BlogExtras.php:586
+#: includes/widgets/BlogExtras/BlogExtras.php:598
+msgid "Offset:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:543
+msgid "Tab 2"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:545
+msgid "Tab 2 Title:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:567
+msgid "Tab 3"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:569
+msgid "Tab 3 Title:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:592
+msgid "Number of Posts:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:594
+msgid "Write -1 for all posts"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:620
+msgid "Featured Image Shape:"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:642
+msgid "Show Category"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:645
+msgid "Post Title Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:649
+msgid "Post Title Hover Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:653
+msgid "Post Meta Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:657
+msgid "Post Meta Hover Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:661
+msgid "Post Separator Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:665
+msgid "Tabs Background Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:669
+msgid "Tabs Text Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:673
+msgid "Active Tab Background Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:677
+msgid "Active Tab Text Color"
+msgstr ""
+
+#: includes/widgets/BlogExtras/BlogExtras.php:681
+msgid "Tabs Border Color"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Divi Blog Extras"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://diviextended.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A powerful and highly customizable Divi blog layout plugin with Archive and "
+"Custom Post Type support."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Elicus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://elicus.com/"
+msgstr ""
+
+#. translators: %s: comment.
+#: includes/modules/BlogExtras/layouts/box_extended.php:253
+#: includes/modules/BlogExtras/layouts/classic.php:303
+#: includes/modules/BlogExtras/layouts/full_width.php:221
+#: includes/modules/BlogExtras/layouts/full_width_background.php:169
+#: includes/modules/BlogExtras/layouts/grid_extended.php:191
+msgctxt "number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
