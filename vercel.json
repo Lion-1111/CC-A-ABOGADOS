@@ -1,4 +1,6 @@
 {
+  "buildCommand": "mkdir -p vercel_dist && cp -r assets *.html vercel_dist/",
+  "outputDirectory": "vercel_dist",
   "cleanUrls": true,
   "trailingSlash": false
 }
