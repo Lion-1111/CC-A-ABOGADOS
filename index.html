@@ -553,131 +553,264 @@ https://twitter.com/marco_bf
 
     <section class="py-5 aparece" id="cards">
 
-        <h1 style="font-weight: bolder;" class="text-center">Somos un Equipo de Abogados en Ixtapaluca</h1>
-        
-      
+        <style>
+            /* Base states - start invisible and shifted down */
+            .trust-headline { font-family: Cinzel, serif; font-weight: 900; font-size: clamp(28px, 5vw, 52px); color: #292929; line-height: 1.15; text-align: center; margin-bottom: 10px; opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+            .trust-sub { font-family: Lato, sans-serif; font-size: clamp(14px, 2vw, 18px); color: #555; text-align: center; max-width: 560px; margin: 0 auto 30px auto; line-height: 1.6; opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease 0.2s, transform 0.7s ease 0.2s; }
+            .trust-badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-bottom: 10px; }
+            .trust-badge { display: flex; align-items: center; gap: 10px; background: #f7f7f7; border: 1px solid #e8e8e8; border-radius: 50px; padding: 10px 20px; opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease; }
+            .trust-badge:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.1); transform: translateY(-2px) !important; }
+            .trust-badge i { font-size: 18px; color: #292929; }
+            .trust-badge span { font-family: Lato, sans-serif; font-size: 13px; font-weight: 700; color: #292929; letter-spacing: 0.3px; }
+            .trust-badge em { font-style: normal; font-weight: 400; color: #777; font-size: 12px; display: block; }
+            /* Visible states */
+            .trust-headline.visible, .trust-sub.visible { opacity: 1; transform: translateY(0); }
+            .trust-badge.visible { opacity: 1; transform: translateY(0); }
+            @media (max-width: 480px) { .trust-badge { padding: 8px 14px; } .trust-badge span { font-size: 12px; } }
+        </style>
 
+        <p class="trust-headline" id="trustTitle">Tu problema legal<br>tiene solución.</p>
+        <p class="trust-sub" id="trustSub">Más de 20 años acompañando a familias y empresas en el Estado de México.<br>Primera consulta <strong>100% gratuita</strong> y sin compromiso.</p>
 
-
-        <div class="row col-12 col-lg-10 mx-auto px-3">
-
-            <div class="col-10 col-md-4 mx-auto mt-5">
-
-                <a class="row link-no-underline" href="capsula">
-
-                    <div class="col-12 text-center mb-3">
-
-                        <img src="./assets/img/Home_3.jpg" class="w-100 img-hover" />
-
-                    </div>
-
-                    <div class="col-1 mx-auto text-center mt-2 text-center pl-4">
-
-                        <img src="./assets/img/Iconos/manuscrito.svg" class="" width="30" />
-
-                    </div>
-
-                    <div class="col-10 mx-auto text-center">
-
-                        <p class="text-muted-1 mb-0">¿Quienes somos?</p>
-
-                        <p class="text-title-card mb-0">Historia</p>
-
-                        <p class="text-description-card mb-0 text-justify">Somos una firma de abogados en Ixtapaluca con más de 20
-
-                            años de
-
-                            experiencia, formados en el estudio y trabajo constante.</p>
-
-                    </div>
-
-                </a>
-
-
-
+        <div class="trust-badges" id="trustBadges">
+            <div class="trust-badge" id="badge1">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                    <span>+<span class="counter" data-target="500">0</span> casos resueltos</span>
+                    <em>En toda el área oriente</em>
+                </div>
             </div>
-
-            <div class="col-10 col-md-4 mx-auto mt-5">
-
-                <a class="row link-no-underline" href="firma">
-
-                    <div class="col-12 text-center mb-3">
-
-                        <img src="./assets/img/Home_2nva.jpg" class="w-100 img-hover" />
-
-                    </div>
-
-                    <div class="col-1 mx-auto text-center mt-2 text-center pl-4">
-
-                        <img src="./assets/img/Iconos/pregunta.svg" class="" width="30" />
-
-                    </div>
-
-                    <div class="col-10 mx-auto text-center">
-
-                        <p class="text-muted-1 mb-0">En esto creemos</p>
-
-                        <p class="text-title-card mb-0">Filosofía</p>
-
-                        <p class="text-description-card mb-0 text-justify">Nuestra esencia es brindarte una gama de
-
-                            soluciones
-
-                            enfocadas en un servicio profesional, personalizado, especializado y confiable.
-
-                        </p>
-
-                    </div>
-
-                </a>
-
-
-
+            <div class="trust-badge" id="badge2">
+                <i class="fas fa-user-shield"></i>
+                <div>
+                    <span>Consulta gratuita</span>
+                    <em>Sin costo · Sin compromiso</em>
+                </div>
             </div>
-
-            <div class="col-10 col-md-4 mx-auto mt-5">
-
-
-
-                <a class="row link-no-underline" href="servicios">
-
-
-
-                    <div class="col-12 text-center mb-3">
-
-                        <img src="./assets/img/Firma_manos.jpg" class="w-100 img-hover" />
-
-                    </div>
-
-                    <div class="col-1 mx-auto text-center mt-2 text-center pl-4">
-
-                        <img src="./assets/img/Iconos/logro.svg" class="" width="30" />
-
-                    </div>
-
-                    <div class="col-10 mx-auto text-center">
-
-                        <p class="text-muted-1 mb-0">¿En qué te podemos ayudar?</p>
-
-                        <p class="text-title-card mb-0">Servicios</p>
-
-                        <p class="text-description-card mb-0 text-justify">Nuestro equipo de profesionales une sus
-
-                            capacidades para
-
-                            servirte mejor y brindarte asesoría jurídica de excelencia.
-
-                        </p>
-
-                    </div>
-
-                </a>
-
-
-
+            <div class="trust-badge" id="badge3">
+                <i class="fas fa-star"></i>
+                <div>
+                    <span><span class="counter" data-target="20">0</span>+ años de experiencia</span>
+                    <em>Resultados reales</em>
+                </div>
             </div>
-
         </div>
+
+        <script>
+        (function() {
+            var animated = false;
+            function animateCounter(el) {
+                var target = parseInt(el.getAttribute('data-target'));
+                var duration = 1500;
+                var step = target / (duration / 16);
+                var current = 0;
+                var timer = setInterval(function() {
+                    current += step;
+                    if (current >= target) { current = target; clearInterval(timer); }
+                    el.textContent = Math.floor(current);
+                }, 16);
+            }
+            function runAnimations() {
+                if (animated) return;
+                var section = document.getElementById('trustTitle');
+                if (!section) return;
+                var rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 80) {
+                    animated = true;
+                    // Animate headline and sub
+                    section.classList.add('visible');
+                    document.getElementById('trustSub').classList.add('visible');
+                    // Stagger badges
+                    setTimeout(function(){ document.getElementById('badge1').classList.add('visible'); }, 300);
+                    setTimeout(function(){ document.getElementById('badge2').classList.add('visible'); }, 480);
+                    setTimeout(function(){ document.getElementById('badge3').classList.add('visible'); }, 650);
+                    // Start counters
+                    setTimeout(function(){
+                        document.querySelectorAll('.counter').forEach(function(c){ animateCounter(c); });
+                    }, 400);
+                }
+            }
+            window.addEventListener('scroll', runAnimations, { passive: true });
+            runAnimations(); // Run on load if already visible
+        })();
+        </script>
+
+        <style>
+            /* Slideshow Stagger Component */
+            .slideshow-stagger {
+                display: flex; flex-wrap: wrap; align-items: center; justify-content: space-evenly; gap: 40px; padding: 20px; min-height: 70vh;
+            }
+            /* Menu Column */
+            .stagger-menu {
+                display: flex; flex-direction: column; gap: 24px;
+            }
+            .stagger-sub { color: #aaa; font-family: Lato, sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; }
+            /* Stagger Item */
+            .stagger-item-wrap {
+                display: flex; align-items: flex-start; gap: 16px; cursor: pointer;
+            }
+            .stagger-num {
+                flex-shrink: 0;
+                width: 28px; height: 28px;
+                display: flex; align-items: center; justify-content: center;
+                margin-top: 8px;
+                font-size: 20px; color: #bbb; transition: color 0.4s ease, transform 0.4s ease;
+            }
+            .stagger-text-col {
+                display: flex; flex-direction: column;
+            }
+            .stagger-item {
+                font-family: Lato, sans-serif; font-size: clamp(28px, 7vw, 50px); font-weight: 900; text-transform: uppercase; letter-spacing: -0.04em;
+                color: #bbb; transition: color 0.45s ease, letter-spacing 0.45s ease;
+                line-height: 1.1; display: block;
+            }
+            .stagger-desc {
+                font-family: Lato, sans-serif; font-size: 13px; color: #666; max-width: 340px; line-height: 1.7;
+                opacity: 0; max-height: 0; overflow: hidden;
+                transition: opacity 0.5s ease 0.1s, max-height 0.5s ease, margin-top 0.3s ease;
+            }
+            
+            /* Active States */
+            .stagger-item-wrap.active .stagger-num { color: #d4af37; transform: scale(1.2); }
+            .stagger-item-wrap.active .stagger-item { color: #1a1a1a; letter-spacing: -0.02em; }
+            .stagger-item-wrap.active .stagger-desc { opacity: 1; max-height: 120px; margin-top: 10px; }
+            
+            /* Image Container */
+            .slideshow-img-container {
+                position: relative; width: 100%; max-width: 420px; aspect-ratio: 4/5; overflow: hidden; border-radius: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            }
+            @media (max-width: 767px) {
+                .slideshow-stagger { flex-direction: column-reverse; padding: 10px; gap: 30px; }
+                .slideshow-img-container { aspect-ratio: 1/1; max-width: 100%; }
+                .stagger-item { font-size: 40px; }
+            }
+            .slideshow-img-wrap {
+                position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+                clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+                transition: clip-path 0.9s cubic-bezier(0.33, 1, 0.68, 1);
+                z-index: 1;
+            }
+            .slideshow-img-wrap.active {
+                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+                z-index: 2;
+            }
+            .slideshow-img-wrap img {
+                width: 100%; height: 100%; object-fit: cover; transform: scale(1.0); transition: transform 6s ease-out;
+            }
+            .slideshow-img-wrap.active img {
+                transform: scale(1.08); /* Ken Burns effect */
+            }
+        </style>
+
+        <div class="slideshow-stagger mt-5" id="staggerCarousel">
+            <!-- Left side: Menu -->
+            <div class="stagger-menu">
+                <div class="stagger-sub"><i class="fas fa-balance-scale mr-2"></i> Lo que nos define</div>
+                <div class="stagger-item-wrap active" data-index="0" onclick="location.href='capsula'">
+                    <span class="stagger-num"><i class="fas fa-landmark"></i></span>
+                    <div class="stagger-text-col">
+                        <div class="stagger-item">Historia</div>
+                        <div class="stagger-desc">Somos una firma de abogados en Ixtapaluca con más de 20 años de experiencia, formados en el estudio y trabajo constante.</div>
+                    </div>
+                </div>
+                <div class="stagger-item-wrap" data-index="1" onclick="location.href='firma'">
+                    <span class="stagger-num"><i class="fas fa-scale-balanced"></i></span>
+                    <div class="stagger-text-col">
+                        <div class="stagger-item">Filosofía</div>
+                        <div class="stagger-desc">Nuestra esencia es brindarte una gama de soluciones enfocadas en un servicio profesional, personalizado, especializado y confiable.</div>
+                    </div>
+                </div>
+                <div class="stagger-item-wrap" data-index="2" onclick="location.href='servicios'">
+                    <span class="stagger-num"><i class="fas fa-gavel"></i></span>
+                    <div class="stagger-text-col">
+                        <div class="stagger-item">Servicios</div>
+                        <div class="stagger-desc">Nuestro equipo de profesionales une sus capacidades para servirte mejor y brindarte asesoría jurídica de excelencia.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right side: Images -->
+            <div class="slideshow-img-container">
+                <div class="slideshow-img-wrap active" id="slideImg-0">
+                    <img src="./assets/img/Home_3.jpg" alt="Historia" />
+                </div>
+                <div class="slideshow-img-wrap" id="slideImg-1">
+                    <img src="./assets/img/Home_2nva.jpg" alt="Filosofía" />
+                </div>
+                <div class="slideshow-img-wrap" id="slideImg-2">
+                    <img src="./assets/img/Firma_manos.jpg" alt="Servicios" />
+                </div>
+            </div>
+        </div>
+
+        <script>
+        (function() {
+            var wraps, currentIndex, autoplayTimer, pausedByUser;
+
+            function activateSlide(index) {
+                if (!wraps || !wraps.length) return;
+                currentIndex = index;
+                wraps.forEach(function(w) { w.classList.remove('active'); });
+                var targetWrap = document.querySelector('.stagger-item-wrap[data-index="'+index+'"]');
+                if (targetWrap) targetWrap.classList.add('active');
+                document.querySelectorAll('.slideshow-img-wrap').forEach(function(img) {
+                    if (img.id !== 'slideImg-' + index) { img.style.zIndex = 1; img.classList.remove('active'); }
+                });
+                var newImg = document.getElementById('slideImg-' + index);
+                if (newImg) { newImg.style.zIndex = 2; newImg.classList.add('active'); }
+            }
+
+            function startAutoplay() {
+                clearInterval(autoplayTimer);
+                autoplayTimer = setInterval(function() {
+                    if (!wraps) return;
+                    currentIndex = (currentIndex + 1) % wraps.length;
+                    activateSlide(currentIndex);
+                }, 3500);
+            }
+
+            function init() {
+                wraps = document.querySelectorAll('.stagger-item-wrap');
+                if (!wraps || wraps.length === 0) return;
+                currentIndex = 0;
+                pausedByUser = false;
+
+                wraps.forEach(function(wrap) {
+                    // Mouse hover (desktop)
+                    wrap.addEventListener('mouseenter', function() {
+                        clearInterval(autoplayTimer);
+                        currentIndex = parseInt(this.getAttribute('data-index'));
+                        activateSlide(currentIndex);
+                    });
+                    wrap.addEventListener('mouseleave', function() {
+                        startAutoplay();
+                    });
+                    // Touch (mobile)
+                    wrap.addEventListener('touchstart', function(e) {
+                        if (!this.classList.contains('active')) {
+                            e.preventDefault();
+                            clearInterval(autoplayTimer);
+                            currentIndex = parseInt(this.getAttribute('data-index'));
+                            activateSlide(currentIndex);
+                            // Restart autoplay after 6 seconds of inactivity
+                            clearTimeout(pausedByUser);
+                            pausedByUser = setTimeout(startAutoplay, 6000);
+                        }
+                        // If already active, let the click/link through naturally
+                    }, {passive: false});
+                });
+
+                // Kick off autoplay
+                startAutoplay();
+            }
+
+            // Run after page is fully loaded (safer than DOMContentLoaded for embedded scripts)
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
+        </script>
 
     </section>
 
@@ -695,181 +828,139 @@ https://twitter.com/marco_bf
 
                 </div>
 
-                <div class="col-12 col-md-5 col-lg-4 col-xl-3 mx-auto">
+                <div class="col-12 col-lg-10 mx-auto">
+                    <style>
+                        .srv-accordion { width: 100%; }
+                        .srv-item { border-bottom: 1px solid rgba(255,255,255,0.12); overflow: hidden; }
+                        .srv-header { display: flex; align-items: center; gap: 20px; padding: 22px 10px; cursor: pointer; user-select: none; transition: background 0.2s; }
+                        .srv-header:hover { background: rgba(255,255,255,0.04); border-radius: 8px; }
+                        .srv-icon { width: 64px; height: 64px; flex-shrink: 0; }
+                        .srv-title-wrap { flex: 1; }
+                        .srv-title { font-family: Cinzel, serif; font-size: 18px; font-weight: 900; color: #ffffff; letter-spacing: 2px; margin: 0; }
+                        .srv-subtitle { font-family: Lato, sans-serif; font-size: 12px; color: #aaa; margin: 0; margin-top: 3px; letter-spacing: 1px; text-transform: uppercase; }
+                        .srv-arrow { font-size: 14px; color: #aaa; transition: transform 0.35s ease; flex-shrink: 0; }
+                        .srv-item.open .srv-arrow { transform: rotate(180deg); }
+                        .srv-body { max-height: 0; overflow: hidden; transition: max-height 0.45s cubic-bezier(0.4,0,0.2,1); }
+                        .srv-body.open { max-height: 400px; }
+                        .srv-list { display: flex; flex-wrap: wrap; gap: 10px; padding: 10px 10px 28px 84px; list-style: none; margin: 0; }
+                        .srv-list li { background: rgba(255,255,255,0.07); border-radius: 20px; padding: 6px 16px; font-family: Lato, sans-serif; font-size: 13px; color: #ddd; letter-spacing: 0.5px; }
+                        @media (max-width: 767px) { .srv-list { padding-left: 0; } .srv-icon { width: 48px; height: 48px; } .srv-title { font-size: 15px; } }
+                    </style>
 
-                    <div class="row col-12 m-0 p-0">
+                    <div class="srv-accordion" id="serviciosAccordion">
 
-                        <div class="col-12 mx-auto text-center">
+                        <div class="srv-item" id="srv-corp">
+                            <div class="srv-header" onclick="toggleSrv('srv-corp')">
+                                <img src="./assets/img/Iconos/circle-1.png" class="srv-icon" />
+                                <div class="srv-title-wrap">
+                                    <p class="srv-title">CORPORATIVO</p>
+                                    <p class="srv-subtitle">Derecho empresarial</p>
+                                </div>
+                                <i class="fas fa-chevron-down srv-arrow"></i>
+                            </div>
+                            <div class="srv-body" id="body-srv-corp">
+                                <ul class="srv-list">
+                                    <li>Fusiones y adquisiciones</li>
+                                    <li>Títulos accionarios</li>
+                                    <li>Transformaciones y escisiones</li>
+                                    <li>Reestructuras corporativas y financieras</li>
+                                    <li>Inversión extranjera</li>
+                                    <li>Comercio electrónico</li>
+                                    <li>Logística corporativa</li>
+                                </ul>
+                            </div>
+                        </div>
 
-                            <img src="./assets/img/Iconos/circle-1.png" class="col-6 col-sm-10 col-md-10 mx-auto" />
+                        <div class="srv-item" id="srv-inmo">
+                            <div class="srv-header" onclick="toggleSrv('srv-inmo')">
+                                <img src="./assets/img/Iconos/circle-2.png" class="srv-icon" />
+                                <div class="srv-title-wrap">
+                                    <p class="srv-title">INMOBILIARIO</p>
+                                    <p class="srv-subtitle">Bienes raíces</p>
+                                </div>
+                                <i class="fas fa-chevron-down srv-arrow"></i>
+                            </div>
+                            <div class="srv-body" id="body-srv-inmo">
+                                <ul class="srv-list">
+                                    <li>Estrategias en adquisición de inmuebles</li>
+                                    <li>Renta y administración de bienes inmuebles</li>
+                                    <li>Creatividad en bienes raíces</li>
+                                    <li>Comercialización inmobiliaria</li>
+                                </ul>
+                            </div>
+                        </div>
 
-                            <h3 class="text-title-card-2 mb-0 mt-4 text-center">CORPORATIVO</h3>
+                        <div class="srv-item" id="srv-civil">
+                            <div class="srv-header" onclick="toggleSrv('srv-civil')">
+                                <img src="./assets/img/Iconos/circle-3.png" class="srv-icon" />
+                                <div class="srv-title-wrap">
+                                    <p class="srv-title">CIVIL</p>
+                                    <p class="srv-subtitle">Derecho civil</p>
+                                </div>
+                                <i class="fas fa-chevron-down srv-arrow"></i>
+                            </div>
+                            <div class="srv-body" id="body-srv-civil">
+                                <ul class="srv-list">
+                                    <li>Juicio de Usucapión</li>
+                                    <li>Jurisdicción voluntaria</li>
+                                    <li>Contratos</li>
+                                    <li>Tercerías</li>
+                                    <li>Desahucio</li>
+                                    <li>Estado civil de las personas</li>
+                                </ul>
+                            </div>
+                        </div>
 
-                            <hr>
-
-                            <ul class=" py-0 pl-2 pr-2 text-description-card-2 ">
-
-                                <li> Fusiones y adquisiciones.</li>
-
-                                <!-- <li> Transaccional.</li> -->
-
-                                <li>
-
-                                    Títulos accionarios.</li>
-
-                                <li>
-
-                                    Transformaciones y escisiones.</li>
-
-
-
-                                <li>
-
-                                    Reestructuras corporativas y financieras.</li>
-
-                                <li>
-
-                                    Inversión extranjera.</li>
-
-
-
-                                <li>
-
-                                    Comercio electrónico.</li>
-
-                                <li>
-
-                                    Logística corporativa.</li>
-
-                            </ul>
-
+                        <div class="srv-item" id="srv-fam">
+                            <div class="srv-header" onclick="toggleSrv('srv-fam')">
+                                <img src="./assets/img/Iconos/circle-4.png" class="srv-icon" />
+                                <div class="srv-title-wrap">
+                                    <p class="srv-title">FAMILIAR</p>
+                                    <p class="srv-subtitle">Derecho familiar</p>
+                                </div>
+                                <i class="fas fa-chevron-down srv-arrow"></i>
+                            </div>
+                            <div class="srv-body" id="body-srv-fam">
+                                <ul class="srv-list">
+                                    <li>Sucesiones Testamentarias e Intestamentarías</li>
+                                    <li>Divorcios</li>
+                                    <li>Patria Potestad</li>
+                                    <li>Pensión Alimenticia</li>
+                                    <li>Guarda y Custodia</li>
+                                    <li>Restitución Internacional de Menores</li>
+                                    <li>Tutela</li>
+                                    <li>Adopción</li>
+                                </ul>
+                            </div>
                         </div>
 
                     </div>
 
-                </div>
-
-                <div class="col-12 col-md-5 col-lg-4 col-xl-3 mx-auto">
-
-                    <div class="row col-12 m-0 p-0">
-
-                        <div class="col-12 mx-auto text-center">
-
-                            <img src="./assets/img/Iconos/circle-2.png" class="col-6 col-sm-10 col-md-10 mx-auto" />
-
-                            <h3 class="text-title-card-2 mb-0 mt-4 text-center">Inmobiliario</h3>
-
-                            <hr>
-
-                            <ul class="text-left py-0 pl-2 pr-2 text-description-card-2 ">
-
-                                <li> Estrategias en adquisición de inmuebles.</li>
-
-                                <li> Renta y
-
-                                    administración de bienes inmuebles.</li>
-
-                                <li> Creatividad en bienes raíces.</li>
-
-
-
-                                <li> Comercialización inmobiliaria.</li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
+                    <script>
+                    var currentOpen = null;
+                    function toggleSrv(id) {
+                        var item = document.getElementById(id);
+                        var body = document.getElementById('body-' + id);
+                        var isOpen = item.classList.contains('open');
+                        if (currentOpen && currentOpen !== id) {
+                            var prevItem = document.getElementById(currentOpen);
+                            var prevBody = document.getElementById('body-' + currentOpen);
+                            prevItem.classList.remove('open');
+                            prevBody.classList.remove('open');
+                        }
+                        if (!isOpen) {
+                            item.classList.add('open');
+                            body.classList.add('open');
+                            currentOpen = id;
+                        } else {
+                            item.classList.remove('open');
+                            body.classList.remove('open');
+                            currentOpen = null;
+                        }
+                    }
+                    </script>
 
                 </div>
-
-                <div class="col-12 col-md-5 col-lg-4 col-xl-3 mx-auto">
-
-                    <div class="row col-12 m-0 p-0">
-
-                        <div class="col-12 mx-auto text-center">
-
-                            <img src="./assets/img/Iconos/circle-3.png" class="col-6 col-sm-10 col-md-10 mx-auto" />
-
-                            <h3 class="text-title-card-2 mb-0 mt-4 text-center">CIVIL</h3>
-
-                            <hr>
-
-                            <ul class="text-left py-0 pl-2 pr-2 text-description-card-2 ">
-
-                                <li>Juicio de Usucapión.</li>
-
-                                <li>
-
-                                    JURISDICCIÓN VOLUNTARIA.</li>
-
-                                <li>
-
-                                    CONTRATOS.</li>
-
-                                <li>
-
-                                    TERCERÍAS.</li>
-
-                                <li>
-
-                                    DESAHUCIO.</li>
-
-                                <li>
-
-                                    ESTADO CIVIL DE LAS PERSONAS.</li>
-
-
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-md-5 col-lg-4 col-xl-3 mx-auto">
-
-                    <div class="row col-12 m-0 p-0">
-
-                        <div class="col-12 mx-auto text-center">
-
-                            <img src="./assets/img/Iconos/circle-4.png" class="col-6 col-sm-10 col-md-10 mx-auto" />
-
-                            <h3 class="text-title-card-2 mb-0 mt-4 text-center">FAMILIAR</h3>
-
-                            <hr>
-
-                            <ul class="text-left py-0 pl-2 pr-2 text-description-card-2 ">
-
-                                <li>Sucesiones Testamentarias e Intestamentarías.</li>
-
-                                <li>Divorcios.</li>
-
-                                <li>Patria Potestad.</li>
-
-                                <li>Pensión Alimenticia.</li>
-
-                                <li>Guarda y Custodia.</li>
-
-                                <li>Restitución Internacional de Menores.</li>
-
-                                <li>TUTELA.</li>
-
-                                <li>ADOPCIÓN.</li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
 
         <div class="col-12 text-center">
 
@@ -897,11 +988,11 @@ https://twitter.com/marco_bf
             <br>
             <h2 class="title-2 aparece" id="cards">Noticias del Día</h2>
 
-            <div class="row">
+            <div class="owl-carousel owl-theme afiliaciones-carousel py-4">
 
-                <a class="col-md-6 col-lg-4 link-no-underline my-3">
+                <a class="link-no-underline my-3 item">
 
-                    <div class="card card-body p-4">
+                    <div class="card card-body p-4 h-100">
 
                         <img class="img-fluid" src="./assets/img/blog/1.png">
 
@@ -941,9 +1032,9 @@ https://twitter.com/marco_bf
 
                 </a>
 
-                <a class="col-md-6 col-lg-4 link-no-underline my-3">
+                <a class="link-no-underline my-3 item">
 
-                    <div class="card card-body px-4 pt-4 pb-1">
+                    <div class="card card-body px-4 pt-4 pb-1 h-100">
 
                         <img class="img-fluid my-5" src="./assets/img/abos2nva.jpg">
 
@@ -971,9 +1062,9 @@ https://twitter.com/marco_bf
 
                 </a>
 
-                <a class="col-md-6 col-lg-4 link-no-underline my-3">
+                <a class="link-no-underline my-3 item">
 
-                    <div class="card card-body p-4">
+                    <div class="card card-body p-4 h-100">
 
                         <img class="img-fluid" src="./assets/img/blog/3.png">
 
@@ -987,7 +1078,7 @@ https://twitter.com/marco_bf
 
                         <p class="text-card-1 text-justify" style="font-size:80%">
 
-                            <strong>CC&A Abogados. Cuenta con </strong></strong>certificaciones como <strong> “PRODUCTOS DE CREDITO INFONAVIT, EVALUACIÓN DE COMPETENCIAS”, entre otras,</strong> las cuales permiten brindar un servicio de calidad. <br><br>
+                            <strong>CC&A Abogados. Cuenta con </strong>certificaciones como <strong> “PRODUCTOS DE CREDITO INFONAVIT, EVALUACIÓN DE COMPETENCIAS”, entre otras,</strong> las cuales permiten brindar un servicio de calidad. <br><br>
 
                             <strong>Las certificaciones ayudan a ofrecer análisis de ofertas que se ajusten a las necesidades del cliente,</strong> guías de manejo en <strong>cuestiones legales, recopilación de documentos necesarios para realizar la compra y venta de un “inmueble”</strong> y tener un mejor desempeño en todas las gestiones requeridas. <br><br>
 
@@ -1104,111 +1195,87 @@ https://twitter.com/marco_bf
 
         <div class="col-12 col-md-6 text-center aparece" id="cards" style="background-image: url(./assets/img/Marble_idk.jpg);">
 
-            <iframe class="my-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5825904709877!2d-98.8863683!3d19.300866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1e4faaaaaaab%3A0xa9f52054c934c64c!2sCCA%20ABOGADOS!5e0!3m2!1ses!2smx!4v1724542800000!5m2!1ses!2smx" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <style>
+                .pro-map-container { position: relative; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin: 3rem 2rem 1rem 2rem; border: 1px solid #444; }
+                .pro-map-iframe { filter: grayscale(100%) contrast(90%); width: 100%; height: 300px; border: 0; display: block; }
+                .pro-map-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); display: flex; justify-content: center; align-items: center; color: white; font-weight: 600; cursor: pointer; transition: opacity 0.3s; z-index: 10; }
+                .pro-map-overlay i { font-size: 24px; margin-bottom: 8px; display: block; }
+                .pro-map-container.active .pro-map-overlay { opacity: 0; pointer-events: none; }
+                .btn-mapa { display: inline-block; padding: 10px 24px; background-color: #1a1a1a; color: white !important; text-decoration: none; border-radius: 25px; font-weight: 600; margin-bottom: 3rem; transition: all 0.3s; border: 1px solid #333; font-size: 14px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+                .btn-mapa:hover { background-color: #000; border-color: #666; text-decoration: none; transform: translateY(-2px); }
+            </style>
+            <div class="pro-map-container" onclick="this.classList.add('active')">
+                <div class="pro-map-overlay">
+                    <div class="text-center">
+                        <i class="fas fa-hand-pointer"></i>
+                        Haz clic para interactuar
+                    </div>
+                </div>
+                <iframe class="pro-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5825904709877!2d-98.8863683!3d19.300866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1e4faaaaaaab%3A0xa9f52054c934c64c!2sCCA%20ABOGADOS!5e0!3m2!1ses!2smx!4v1724542800000!5m2!1ses!2smx" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <a href="https://www.google.com/maps/place/CCA+ABOGADOS/@19.300866,-98.8863683,17z/" target="_blank" class="btn-mapa"><i class="fas fa-map-marker-alt"></i> Abrir en Google Maps</a>
 
         </div>
 
         <div class="col-12 col-md-6 p-4 img-buho aparece" id="cards">
 
-            <p class="text-p-form mb-0">Contáctanos</p>
+            <style>
+                .form-asesoria { text-align: left; padding-top: 10px; }
+                .form-asesoria .form-group { margin-bottom: 15px; }
+                .form-asesoria label { font-size: 13px; font-weight: 600; color: #555; margin-bottom: 5px; display: block; }
+                .form-asesoria input, .form-asesoria textarea { width: 100%; background: #1a1a1a; border: 1px solid #333; color: #fff; border-radius: 8px; padding: 12px 15px; font-size: 14px; transition: all 0.3s ease; }
+                .form-asesoria input::placeholder, .form-asesoria textarea::placeholder { color: #888; }
+                .form-asesoria input:focus, .form-asesoria textarea:focus { outline: none; border-color: #555; box-shadow: 0 0 0 2px rgba(255,255,255,0.1); }
+                .form-asesoria textarea { resize: vertical; min-height: 80px; }
+                .btn-agendar { background: #1a1a1a; color: #fff; border: none; width: 100%; padding: 14px; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer; transition: background 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 10px; }
+                .btn-agendar:hover { background: #000; }
+                .form-footer { text-align: center; font-size: 11px; color: #666; margin-top: 15px; display: flex; align-items: center; justify-content: center; gap: 5px; }
+            </style>
+            
+            <p class="text-p-form mb-0" style="text-transform: uppercase; letter-spacing: 1px; font-size: 12px; color: #666;">Asesor&#237;a Legal</p>
+            <h2 class="title-form mb-2" style="font-size: 28px;">Agenda tu asesor&#237;a gratuita</h2>
+            <p style="font-size: 14px; color: #555; line-height: 1.4; margin-bottom: 20px;">Cu&#233;ntanos brevemente tu situaci&#243;n. Un abogado te contacta en menos de 24 horas.</p>
 
-            <h2 class="title-form mb-0">Asesórate Con Nosotros</h2>
-
-            <hr class="ml-0 mt-0" style="width: 30px;border-top-color: rgb(0,0,0);">
-
-            <form class="col-12 mx-auto mt-5" id="contactForm" name="sentMessage" novalidate="novalidate">
-
-                <div class="row">
-
-                    <div class="col-12 col-md-6 mb-2">
-
-                        <div class="form-label-group ">
-
-                            <input type="text " id="inputName" class="px-0 forms no-borders bg-transparent" placeholder="Nombre" required>
-
-                            <label for="inputName" class="px-0 label-form">Nombre</label>
-
-                            <small>
-
-                                <p id="nameError" style="color:#192571" class="m-0"></p>
-
-                            </small>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-12 col-md-6 mb-2">
-
-                        <div class="form-label-group ">
-
-                            <input type="email" id="inputEmail" class="px-0 forms no-borders bg-transparent" placeholder="Email " required>
-
-                            <label for="inputEmail" class="px-0 label-form">Email</label>
-
-                            <small>
-
-                                <p id="emailError" style="color:#192571" class="m-0"></p>
-
-                            </small>
-
-                        </div>
-
-                    </div>
-
+            <form class="form-asesoria" id="form-whatsapp" onsubmit="enviarWhatsApp(event)">
+                <div class="form-group">
+                    <label>Nombre completo</label>
+                    <input type="text" id="wa-nombre" placeholder="Ej. Juana P&#233;rez" required>
                 </div>
-
-
-
-
-
-                <div class="form-label-group mb-4">
-
-                    <input type="number" id="inputPhone" class="px-0 forms no-borders bg-transparent" placeholder="Teléfono " required>
-
-                    <label for="inputPhone" class="px-0 label-form ">Teléfono</label>
-
-                    <small>
-
-                        <p id="phoneError" style="color:#192571" class="m-0"></p>
-
-                    </small>
-
+                <div class="form-group">
+                    <label>Tel&#233;fono</label>
+                    <input type="tel" id="wa-telefono" placeholder="222 123 4567" required>
                 </div>
-
-                <div class="form-label-group mb-5">
-
-                    <textarea id="inputMsj" rows="2" class="px-0 forms no-borders label-form bg-transparent" placeholder="Escribe tu mensaje" required></textarea>
-
+                <div class="form-group">
+                    <label>Email (opcional)</label>
+                    <input type="email" id="wa-email" placeholder="tu@email.com">
                 </div>
-
-                <div class="row ">
-
-                    <div class="col-12">
-
-                        <small>
-
-                            <p id="errorForm" style="color:#192571"></p>
-
-                        </small>
-
-                    </div>
-
+                <div class="form-group">
+                    <label>Mensaje (opcional)</label>
+                    <textarea id="wa-mensaje" placeholder="Ej. Necesito asesor&#237;a en un contrato mercantil"></textarea>
                 </div>
-
-                <div class="row ">
-
-                    <div class="col-10 mx-auto">
-
-                        <input type="submit" class="btn col-12 btn-login text-white mb-2 " id="sendMessageButton" type="submit" value="Enviar" />
-
-                    </div>
-
+                <button type="submit" class="btn-agendar">Agendar mi asesor&#237;a <i class="fas fa-arrow-right"></i></button>
+                <div class="form-footer">
+                    <i class="fas fa-lock"></i> Tu informaci&#243;n es 100% confidencial
                 </div>
-
-
-
             </form>
+
+            <script>
+            function enviarWhatsApp(e) {
+                e.preventDefault();
+                var nombre = document.getElementById('wa-nombre').value;
+                var tel = document.getElementById('wa-telefono').value;
+                var email = document.getElementById('wa-email').value;
+                var msj = document.getElementById('wa-mensaje').value;
+                
+                var texto = 'Hola CCA Abogados, me gustaría agendar una asesoría gratuita.\n\n';
+                texto += '*Nombre:* ' + nombre + '\n';
+                texto += '*Teléfono:* ' + tel + '\n';
+                if(email) texto += '*Email:* ' + email + '\n';
+                if(msj) texto += '*Mensaje:* ' + msj + '\n';
+                
+                window.open('https://wa.me/525534042896?text=' + encodeURIComponent(texto), '_blank');
+            }
+            </script>
 
         </div>
 
@@ -1394,7 +1461,7 @@ https://twitter.com/marco_bf
 
         <script>
 
-            var owl = $('.owl-carousel');
+            var owl = $('.owl-carousel:not(.afiliaciones-carousel)');
 
             owl.owlCarousel({
 
@@ -1441,6 +1508,26 @@ https://twitter.com/marco_bf
                 }
 
             });
+
+            var owlAfil = $('.afiliaciones-carousel');
+            owlAfil.owlCarousel({
+                loop: true,
+                autoHeight: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                nav: true,
+                navText: ['<i class="fas fa-chevron-left" style="font-size: 24px; color: #292929; margin-right: 10px;"></i>', '<i class="fas fa-chevron-right" style="font-size: 24px; color: #292929; margin-left: 10px;"></i>'],
+                dots: true,
+                margin: 20,
+                lazyLoad: true,
+                responsive: {
+                    0: { items: 1, stagePadding: 30 },
+                    768: { items: 2, stagePadding: 0 },
+                    1024: { items: 3, stagePadding: 0 }
+                }
+            });
+
 
             // owl.on('mousewheel', '.owl-stage', function (e) {
 

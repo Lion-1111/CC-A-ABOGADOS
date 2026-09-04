@@ -340,111 +340,87 @@
 
         <div class="col-12 col-md-6 text-center aparece" id="cards" style="background-image: url(./assets/img/Marble_idk.jpg);">
 
-            <iframe class="my-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5825904709877!2d-98.8863683!3d19.300866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1e4faaaaaaab%3A0xa9f52054c934c64c!2sCCA%20ABOGADOS!5e0!3m2!1ses!2smx!4v1724542800000!5m2!1ses!2smx" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <style>
+                .pro-map-container { position: relative; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin: 3rem 2rem 1rem 2rem; border: 1px solid #444; }
+                .pro-map-iframe { filter: grayscale(100%) contrast(90%); width: 100%; height: 300px; border: 0; display: block; }
+                .pro-map-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); display: flex; justify-content: center; align-items: center; color: white; font-weight: 600; cursor: pointer; transition: opacity 0.3s; z-index: 10; }
+                .pro-map-overlay i { font-size: 24px; margin-bottom: 8px; display: block; }
+                .pro-map-container.active .pro-map-overlay { opacity: 0; pointer-events: none; }
+                .btn-mapa { display: inline-block; padding: 10px 24px; background-color: #1a1a1a; color: white !important; text-decoration: none; border-radius: 25px; font-weight: 600; margin-bottom: 3rem; transition: all 0.3s; border: 1px solid #333; font-size: 14px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+                .btn-mapa:hover { background-color: #000; border-color: #666; text-decoration: none; transform: translateY(-2px); }
+            </style>
+            <div class="pro-map-container" onclick="this.classList.add('active')">
+                <div class="pro-map-overlay">
+                    <div class="text-center">
+                        <i class="fas fa-hand-pointer"></i>
+                        Haz clic para interactuar
+                    </div>
+                </div>
+                <iframe class="pro-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5825904709877!2d-98.8863683!3d19.300866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1e4faaaaaaab%3A0xa9f52054c934c64c!2sCCA%20ABOGADOS!5e0!3m2!1ses!2smx!4v1724542800000!5m2!1ses!2smx" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <a href="https://www.google.com/maps/place/CCA+ABOGADOS/@19.300866,-98.8863683,17z/" target="_blank" class="btn-mapa"><i class="fas fa-map-marker-alt"></i> Abrir en Google Maps</a>
 
         </div>
 
         <div class="col-12 col-md-6 p-4 img-buho aparece" id="cards">
 
-            <p class="text-p-form mb-0">Contáctanos</p>
+            <style>
+                .form-asesoria { text-align: left; padding-top: 10px; }
+                .form-asesoria .form-group { margin-bottom: 15px; }
+                .form-asesoria label { font-size: 13px; font-weight: 600; color: #555; margin-bottom: 5px; display: block; }
+                .form-asesoria input, .form-asesoria textarea { width: 100%; background: #1a1a1a; border: 1px solid #333; color: #fff; border-radius: 8px; padding: 12px 15px; font-size: 14px; transition: all 0.3s ease; }
+                .form-asesoria input::placeholder, .form-asesoria textarea::placeholder { color: #888; }
+                .form-asesoria input:focus, .form-asesoria textarea:focus { outline: none; border-color: #555; box-shadow: 0 0 0 2px rgba(255,255,255,0.1); }
+                .form-asesoria textarea { resize: vertical; min-height: 80px; }
+                .btn-agendar { background: #1a1a1a; color: #fff; border: none; width: 100%; padding: 14px; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer; transition: background 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 10px; }
+                .btn-agendar:hover { background: #000; }
+                .form-footer { text-align: center; font-size: 11px; color: #666; margin-top: 15px; display: flex; align-items: center; justify-content: center; gap: 5px; }
+            </style>
+            
+            <p class="text-p-form mb-0" style="text-transform: uppercase; letter-spacing: 1px; font-size: 12px; color: #666;">Asesor&#237;a Legal</p>
+            <h2 class="title-form mb-2" style="font-size: 28px;">Agenda tu asesor&#237;a gratuita</h2>
+            <p style="font-size: 14px; color: #555; line-height: 1.4; margin-bottom: 20px;">Cu&#233;ntanos brevemente tu situaci&#243;n. Un abogado te contacta en menos de 24 horas.</p>
 
-            <h1 class="title-form mb-0">Asesórate Con Nosotros</h1>
-
-            <hr class="ml-0 mt-0" style="width: 30px;border-top-color: rgb(0,0,0);">
-
-            <form class="col-12 mx-auto mt-5" id="contactForm" name="sentMessage" novalidate="novalidate">
-
-                <div class="row">
-
-                    <div class="col-12 col-md-6 mb-2">
-
-                        <div class="form-label-group ">
-
-                            <input type="text " id="inputName" class="px-0 forms no-borders bg-transparent" placeholder="Nombre" required>
-
-                            <label for="inputName" class="px-0 label-form">Nombre</label>
-
-                            <small>
-
-                                <p id="nameError" style="color:#192571" class="m-0"></p>
-
-                            </small>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-12 col-md-6 mb-2">
-
-                        <div class="form-label-group ">
-
-                            <input type="email" id="inputEmail" class="px-0 forms no-borders bg-transparent" placeholder="Email " required>
-
-                            <label for="inputEmail" class="px-0 label-form">Email</label>
-
-                            <small>
-
-                                <p id="emailError" style="color:#192571" class="m-0"></p>
-
-                            </small>
-
-                        </div>
-
-                    </div>
-
+            <form class="form-asesoria" id="form-whatsapp" onsubmit="enviarWhatsApp(event)">
+                <div class="form-group">
+                    <label>Nombre completo</label>
+                    <input type="text" id="wa-nombre" placeholder="Ej. Juana P&#233;rez" required>
                 </div>
-
-
-
-
-
-                <div class="form-label-group mb-4">
-
-                    <input type="number" id="inputPhone" class="px-0 forms no-borders bg-transparent" placeholder="Teléfono " required>
-
-                    <label for="inputPhone" class="px-0 label-form ">Teléfono</label>
-
-                    <small>
-
-                        <p id="phoneError" style="color:#192571" class="m-0"></p>
-
-                    </small>
-
+                <div class="form-group">
+                    <label>Tel&#233;fono</label>
+                    <input type="tel" id="wa-telefono" placeholder="222 123 4567" required>
                 </div>
-
-                <div class="form-label-group mb-5">
-
-                    <textarea id="inputMsj" rows="2" class="px-0 forms no-borders label-form bg-transparent" placeholder="Escribe tu mensaje" required></textarea>
-
+                <div class="form-group">
+                    <label>Email (opcional)</label>
+                    <input type="email" id="wa-email" placeholder="tu@email.com">
                 </div>
-
-                <div class="row ">
-
-                    <div class="col-12">
-
-                        <small>
-
-                            <p id="errorForm" style="color:#192571"></p>
-
-                        </small>
-
-                    </div>
-
+                <div class="form-group">
+                    <label>Mensaje (opcional)</label>
+                    <textarea id="wa-mensaje" placeholder="Ej. Necesito asesor&#237;a en un contrato mercantil"></textarea>
                 </div>
-
-                <div class="row ">
-
-                    <div class="col-10 mx-auto">
-
-                        <input type="submit" class="btn col-12 btn-login text-white mb-2 " id="sendMessageButton" type="submit" value="Enviar" />
-
-                    </div>
-
+                <button type="submit" class="btn-agendar">Agendar mi asesor&#237;a <i class="fas fa-arrow-right"></i></button>
+                <div class="form-footer">
+                    <i class="fas fa-lock"></i> Tu informaci&#243;n es 100% confidencial
                 </div>
-
-
-
             </form>
+
+            <script>
+            function enviarWhatsApp(e) {
+                e.preventDefault();
+                var nombre = document.getElementById('wa-nombre').value;
+                var tel = document.getElementById('wa-telefono').value;
+                var email = document.getElementById('wa-email').value;
+                var msj = document.getElementById('wa-mensaje').value;
+                
+                var texto = 'Hola CCA Abogados, me gustaría agendar una asesoría gratuita.\n\n';
+                texto += '*Nombre:* ' + nombre + '\n';
+                texto += '*Teléfono:* ' + tel + '\n';
+                if(email) texto += '*Email:* ' + email + '\n';
+                if(msj) texto += '*Mensaje:* ' + msj + '\n';
+                
+                window.open('https://wa.me/525534042896?text=' + encodeURIComponent(texto), '_blank');
+            }
+            </script>
 
         </div>
 

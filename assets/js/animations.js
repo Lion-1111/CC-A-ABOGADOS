@@ -8,16 +8,21 @@ let nuevo = 1;
 function showScroll() {
   var html = document.getElementsByTagName("html")[0];
   var elementShow = document.getElementsByClassName("aparece");
-  document.addEventListener("scroll", function () {
-    var topVent = html.scrollTop;
+  
+  function checkVisible() {
+    var topVent = html.scrollTop || window.scrollY;
     for (let i = 0; i < elementShow.length; i++) {
       var lopelemAparece = elementShow[i].offsetTop;
-      if (topVent > lopelemAparece - 500) {
+      if (topVent > lopelemAparece - 800) {
         elementShow[i].style.transitionDuration = "1s";
         elementShow[i].style.opacity = 1;
       }
     }
-  });
+  }
+  
+  document.addEventListener("scroll", checkVisible);
+  // Trigger immediately on load so the first section isn't blank
+  setTimeout(checkVisible, 100);
 }
 $("#test1").on("click", function (event) {
   goToSection(event);
