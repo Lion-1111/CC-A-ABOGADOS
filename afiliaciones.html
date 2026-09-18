@@ -75,8 +75,8 @@
 <body>
     <div class="row">
         <div class="col-12">
-            <nav class="navbar navbar-expand-lg navbar-dark padding-nav fixed-top" style="background-color: #292929;font-weight: 900;">
-                <a class="navbar-brand" href="index"><img src="assets/img/Iconos/logo.png" width="130"></img>
+            <nav class="navbar navbar-expand-lg navbar-dark padding-nav fixed-top page-navbar-dark">
+                <a class="navbar-brand" href="index" aria-label="CCA Abogados, inicio"><img src="assets/img/Iconos/logo.png" width="130" alt="CCA Abogados"></img>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -112,29 +112,61 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contacto">Contáctanos</a>
                         </li>
-                        <div class="ml-2 border-left pl-3">
-                            <a href="tel:+525534042896">
+                        <li class="ml-2 border-left pl-3">
+                            <a href="tel:+525534042896" aria-label="Llamar a CCA Abogados">
                                 <button class="btn-callus px-3 py-2 mt-1">
-                                    <img src="./assets/img/Iconos/phone.svg" />
+                                    <img src="./assets/img/Iconos/phone.svg" alt="" />
                                     <small>Llámanos ahora</small>
                                 </button>
                             </a>
-                        </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
     <!-- Navbar -->
-    <section class="margin-header" style="background-image: url(./assets/img/Marble_b.jpg);background-size: 100%;">
-        <div class="pt-5" style="padding-bottom:1.5rem">
+    <section class="margin-header affiliations-header">
+        <div class="pt-5 affiliations-header-inner">
             <div class="col-12 pt-5 mb-5">
                 <h1 class="title-4 text-center">Afíliate con nosotros</h1>
             </div>
         </div>
     </section>
     <section class="col-md-10 mx-auto mb-5 pb-5 pt-5 img-buho-2 aparece" id="cards">
-        <h2 class="title-form text-center my-5"><span style="border-bottom: 2px solid #292929 !important;">"L</span>legar juntos es el principio. Matenerse juntos, es el progreso. Trabajar juntos es el éxito. Henry Ford."</h2>
+        <h2 class="title-form text-center my-5"><span class="quote-lead">"L</span>legar juntos es el principio. Matenerse juntos, es el progreso. Trabajar juntos es el éxito. Henry Ford."</h2>
+        <div class="affiliation-grid" aria-label="Afiliaciones institucionales">
+            <article class="affiliation-item">
+                <img src="./assets/img/afiliaciones/ampi-mexico.png" alt="AMPI México" loading="lazy">
+                <h2>AMPI México</h2>
+                <p>Asociación Mexicana de Profesionales Inmobiliarios.</p>
+            </article>
+            <article class="affiliation-item affiliation-pending">
+                <div class="affiliation-logo-placeholder">CMI AMPI<br><small>PENDIENTE</small></div>
+                <h2>CMI AMPI</h2>
+                <p>Comité de la Mujer Inmobiliaria de AMPI México.</p>
+            </article>
+            <article class="affiliation-item">
+                <img src="./assets/img/afiliaciones/cila.png" alt="CILA" loading="lazy">
+                <h2>CILA</h2>
+                <p>Confederación Inmobiliaria Latinoamericana.</p>
+            </article>
+            <article class="affiliation-item">
+                <img src="./assets/img/afiliaciones/bna.png" alt="BNA" loading="lazy">
+                <h2>BNA</h2>
+                <p>Barra Nacional de Abogados, Facultad de Derecho.</p>
+            </article>
+            <article class="affiliation-item">
+                <img src="./assets/img/afiliaciones/asive.png" alt="ASIVE" loading="lazy">
+                <h2>ASIVE</h2>
+                <p>PENDIENTE: confirmar nombre completo con la clienta.</p>
+            </article>
+            <article class="affiliation-item">
+                <img src="./assets/img/afiliaciones/omca.png" alt="OMCA" loading="lazy">
+                <h2>OMCA</h2>
+                <p>Orden Mexicana Colegio de la Abogacía.</p>
+            </article>
+        </div>
         <form class="col-10 mx-auto" id="afiliateForm" name="sentMessage" novalidate="novalidate">
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -142,7 +174,7 @@
                         <input type="text " id="inputName" class="px-0 forms border-bottom-only " placeholder="Tu nombre " required>
                         <label for="inputName" class="px-0 ">Nombre</label>
                         <small>
-                            <p id="nameError" style="color:#192571" class="m-0"></p>
+                            <p id="nameError" class="form-error m-0"></p>
                         </small>
                     </div>
                 </div>
@@ -151,7 +183,7 @@
                         <input type="email" id="inputEmail" class="px-0 forms border-bottom-only " placeholder="Email " required>
                         <label for="inputEmail" class="px-0 ">Correo</label>
                         <small>
-                            <p id="emailError" style="color:#192571" class="m-0"></p>
+                            <p id="emailError" class="form-error m-0"></p>
                         </small>
 
                     </div>
@@ -163,7 +195,7 @@
                         <input type="number" id="inputPhone" class="px-0 forms border-bottom-only " placeholder="Teléfono " required>
                         <label for="inputPhone" class="px-0 ">Teléfono celular</label>
                         <small>
-                            <p id="phoneError" style="color:#192571" class="m-0"></p>
+                            <p id="phoneError" class="form-error m-0"></p>
                         </small>
 
                     </div>
@@ -173,7 +205,7 @@
                         <input type="number" id="inputPhoneHouse" class="px-0 forms border-bottom-only " placeholder="Teléfono " required>
                         <label for="inputPhoneHouse" class="px-0 ">Teléfono fijo</label>
                         <small>
-                            <p id="phoneHouseError" style="color:#192571" class="m-0"></p>
+                            <p id="phoneHouseError" class="form-error m-0"></p>
                         </small>
                     </div>
                 </div>
@@ -184,7 +216,7 @@
                         <input type="text " id="inputCity" class="px-0 forms no-borders " placeholder="Tu nombre " required>
                         <label for="inputCity" class="px-0 ">Ciudad</label>
                         <small>
-                            <p id="cityError" style="color:#192571" class="m-0"></p>
+                            <p id="cityError" class="form-error m-0"></p>
                         </small>
                     </div>
                 </div>
@@ -192,7 +224,7 @@
                     <label for="inputBirthDate" class="px-0 mb-0">Fecha de nacimiento</label>
                     <input type="date" id="inputBirthDate" class="px-0 forms no-borders " placeholder="Tu fecha " required>
                     <small>
-                        <p id="birthDateError" style="color:#192571" class="m-0"></p>
+                        <p id="birthDateError" class="form-error m-0"></p>
                     </small>
                 </div>
             </div>
@@ -213,33 +245,33 @@
                     que se corrobore dicha información, así como que obtenga otra
                     información personal que esté disponible en fuentes de acceso
                     público?</p>
-                <input class="" id="terms" type="radio" /> <label for=""><strong>Acepto</strong></label>
+                <input class="" id="terms" type="radio" /> <label for="terms"><strong>Acepto</strong></label>
             </div>
             <small>
-                <p id="termsError" class="text-center" style="color:#192571" class="m-0"></p>
+                <p id="termsError" class="text-center form-error m-0"></p>
             </small>
             <div class="row ">
                 <div class="col-12">
                     <small>
-                        <p id="errorForm" style="color:#192571"></p>
+                        <p id="errorForm" class="form-error"></p>
                     </small>
                 </div>
             </div>
             <div class="row ">
                 <div class="col-6 mx-auto">
-                    <input type="submit" class="btn btn-azul btn-form btn-block text-white mb-2 " style="background-color: #292929;" id="sendMessageButton" type="submit" value="Enviar" />
+                    <input type="submit" class="btn btn-azul btn-form btn-block text-white mb-2 submit-dark" id="sendMessageButton" value="Enviar" />
                 </div>
             </div>
 
         </form>
     </section>
-    <footer style="background-color:#000 !important">
+    <footer class="site-footer-dark">
 
         <div class="row col-12 p-0 m-0">
 
             <div class="col-12 text-center mt-4">
 
-                <img src="assets/img/Iconos/logo.png" width="200" />
+                <img src="assets/img/Iconos/logo.png" width="200" alt="CCA Abogados" />
 
             </div>
 
@@ -255,29 +287,29 @@
 
             <div class="col-12 text-center">
 
-                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" /></a>
+                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA" aria-label="Facebook de CCA Abogados"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" alt="" /></a>
 
-                <a href="https://twitter.com/castro_despacho">
+                <a href="https://twitter.com/castro_despacho" aria-label="Twitter de CCA Abogados">
 
-                    <img src="./assets/img/social-network/icons8-twitter.svg" width="30" />
+                    <img src="./assets/img/social-network/icons8-twitter.svg" width="30" alt="" />
 
                 </a>
 
-                <a href="https://www.instagram.com/cca_abogados/">
+                <a href="https://www.instagram.com/cca_abogados/" aria-label="Instagram de CCA Abogados">
 
-                    <img src="./assets/img/social-network/instagram.png" width="30" />
+                    <img src="./assets/img/social-network/instagram.png" width="30" alt="" />
 
                 </a>
 
                 <!--<a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
 
-                    <img src="./assets/img/social-network/linkedin.png" width="30" />
+                    <img src="./assets/img/social-network/linkedin.png" width="30" alt="" />
 
                 </a>-->
 
-                <a href="https://www.youtube.com/channel/UC4dOqk-nOPwqfpGVDKDreoQ">
+                <a href="https://www.youtube.com/channel/UC4dOqk-nOPwqfpGVDKDreoQ" aria-label="YouTube de CCA Abogados">
 
-                    <img src="./assets/img/social-network/youtube.png" width="30" />
+                    <img src="./assets/img/social-network/youtube.png" width="30" alt="" />
 
                 </a>
 
@@ -301,7 +333,7 @@
 
                     <div class=" text-center col-md-1 mt-2">
 
-                        <img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20"></img>
+                        <img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20" alt="" />
 
                     </div>
 
@@ -325,7 +357,7 @@
 
                     <div class="col-lg-1 ml-auto text-center">
 
-                        <img src="./assets/img/Iconos/correo.svg" class="" width="20"></img>
+                        <img src="./assets/img/Iconos/correo.svg" class="" width="20" alt="" />
 
                     </div>
 
@@ -349,7 +381,7 @@
 
                     <div class="text-center col-md-1  ml-auto mt-2">
 
-                        <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20"></img>
+                        <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20" alt="" />
 
                     </div>
 
@@ -369,7 +401,7 @@
 
             <div class="d-block">
 
-                <a target="_black" href="https://api.whatsapp.com/send?phone=+525534042896&text=hola,%20¿qué%20tal%20estás?" class="whatsapp-button link-no-underline text-white"><i class="fab fa-whatsapp"></i>
+                <a target="_blank" rel="noopener" aria-label="Contactar por WhatsApp" href="https://api.whatsapp.com/send?phone=+525534042896&text=hola,%20¿qué%20tal%20estás?" class="whatsapp-button link-no-underline text-white"><i class="fab fa-whatsapp" aria-hidden="true"></i>
 
                 </a>
 
@@ -377,7 +409,7 @@
 
             <div class="d-block d-md-none">
 
-                <a target="_black" href="tel:+525534042896" class="phone-button link-no-underline text-white"><i class="fas fa-phone-alt"></i></a>
+                <a target="_blank" rel="noopener" aria-label="Llamar a CCA Abogados" href="tel:+525534042896" class="phone-button link-no-underline text-white"><i class="fas fa-phone-alt" aria-hidden="true"></i></a>
 
             </div>
 

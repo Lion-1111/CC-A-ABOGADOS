@@ -6,6 +6,193 @@
 body {
   font-family: "Cinzel", serif !important;
 }
+
+.recognition-bar {
+  background: #292929;
+  border-top: none;
+  border-bottom: none;
+  padding: 0.6rem 0;
+  overflow: hidden;
+}
+
+/* Marquee infinito de logos */
+.logos-marquee-track {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logos-marquee-inner {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: max-content;
+  animation: marquee-scroll 18s linear infinite;
+}
+
+.logos-marquee-inner img {
+  height: 52px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+  filter: grayscale(1) brightness(5);
+  opacity: 0.8;
+  transition: filter 250ms ease, opacity 250ms ease;
+  flex-shrink: 0;
+}
+
+.logos-marquee-inner img:hover {
+  filter: grayscale(0) brightness(1);
+  opacity: 1;
+  animation-play-state: paused;
+}
+
+.logos-marquee-track:hover .logos-marquee-inner {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.page-navbar-dark {
+  background-color: #292929;
+  font-weight: 900;
+}
+
+.affiliations-header {
+  background-image: url(../img/Marble_b.jpg);
+  background-size: 100%;
+}
+
+.affiliations-header-inner {
+  padding-bottom: 1.5rem;
+}
+
+.quote-lead {
+  border-bottom: 2px solid #292929;
+}
+
+.form-error {
+  color: #192571;
+}
+
+.submit-dark {
+  background-color: #292929;
+}
+
+.site-footer-dark {
+  background-color: #000 !important;
+}
+
+.recognition-logos {
+  align-items: center;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.recognition-logos img {
+  filter: grayscale(1) brightness(5);
+  height: 70px;
+  justify-self: center;
+  max-width: 100%;
+  object-fit: contain;
+  transition: filter 180ms ease;
+  width: 100%;
+  opacity: 0.85;
+}
+
+.recognition-logos img:hover {
+  filter: grayscale(0) brightness(1);
+  opacity: 1;
+}
+
+.recognition-pending,
+.affiliation-logo-placeholder {
+  align-items: center;
+  border: 1px dashed #666;
+  color: #aaa;
+  display: flex;
+  font-family: Lato, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  height: 70px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Carrusel de logos en barra oscura */
+.recognition-logos-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.recognition-logos-carousel .item img {
+  max-height: 65px;
+  max-width: 130px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(1) brightness(5);
+  opacity: 0.85;
+  transition: filter 220ms ease, opacity 220ms ease;
+}
+
+.recognition-logos-carousel .item img:hover {
+  filter: grayscale(0) brightness(1);
+  opacity: 1;
+}
+
+.recognition-pending small,
+.affiliation-logo-placeholder small {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+
+.affiliation-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0 auto 3rem;
+  max-width: 1100px;
+}
+
+.affiliation-item {
+  border: 1px solid #e0e0dc;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.affiliation-item img,
+.affiliation-logo-placeholder {
+  height: 150px;
+  margin: 0 auto 1rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+.affiliation-item h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.affiliation-item p {
+  font-family: Lato, sans-serif;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .recognition-logos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .affiliation-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .text-justify {
   text-align: justify;
 }
