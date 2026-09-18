@@ -791,7 +791,7 @@ hr {
 }
 /* Globito de texto flotante sobre la bolita de WhatsApp */
 .whatsapp-button::before {
-  content: "Respondemos en 24 hrs ✓";
+  content: "¡Asesoría Inmediata!";
   position: absolute;
   bottom: 65px;
   right: 0;
