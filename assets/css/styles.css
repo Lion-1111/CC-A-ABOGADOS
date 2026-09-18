@@ -8,10 +8,10 @@ body {
 }
 
 .recognition-bar {
-  background: #292929;
+  background: #f7f7f5;
   border-top: none;
   border-bottom: none;
-  padding: 0.6rem 0;
+  padding: 0;
   overflow: hidden;
 }
 
