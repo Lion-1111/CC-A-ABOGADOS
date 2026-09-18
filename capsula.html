@@ -507,10 +507,7 @@
                     <label>Tel&#233;fono</label>
                     <input type="tel" id="wa-telefono" placeholder="222 123 4567" required>
                 </div>
-                <div class="form-group">
-                    <label>Email (opcional)</label>
-                    <input type="email" id="wa-email" placeholder="tu@email.com">
-                </div>
+
                 <div class="form-group">
                     <label>Mensaje (opcional)</label>
                     <textarea id="wa-mensaje" placeholder="Ej. Necesito asesor&#237;a en un contrato mercantil"></textarea>
@@ -526,13 +523,13 @@
                 e.preventDefault();
                 var nombre = document.getElementById('wa-nombre').value;
                 var tel = document.getElementById('wa-telefono').value;
-                var email = document.getElementById('wa-email').value;
+
                 var msj = document.getElementById('wa-mensaje').value;
                 
                 var texto = 'Hola CCA Abogados, me gustaría agendar una asesoría gratuita.\n\n';
                 texto += '*Nombre:* ' + nombre + '\n';
                 texto += '*Teléfono:* ' + tel + '\n';
-                if(email) texto += '*Email:* ' + email + '\n';
+
                 if(msj) texto += '*Mensaje:* ' + msj + '\n';
                 
                 window.open('https://wa.me/525534042896?text=' + encodeURIComponent(texto), '_blank');
