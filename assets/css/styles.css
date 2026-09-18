@@ -771,24 +771,56 @@ hr {
 }
 .whatsapp-button {
   position: fixed;
-  bottom: 100px;
+  bottom: 20px;
   right: 15px;
   z-index: 99;
   background-color: #25d366;
   border-radius: 50px;
   color: #ffffff;
   text-decoration: none;
-  width: 50px;
-  height: 50px;
-  font-size: 30px;
+  width: 56px;
+  height: 56px;
+  font-size: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
-  box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 4px 20px rgba(37,211,102,0.5);
+  box-shadow: 0px 4px 20px rgba(37,211,102,0.5);
   animation: effect 5s infinite ease-in;
+}
+/* Globito de texto flotante sobre la bolita de WhatsApp */
+.whatsapp-button::before {
+  content: "Respondemos en 24 hrs ✓";
+  position: absolute;
+  bottom: 65px;
+  right: 0;
+  background: #25d366;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 6px 12px;
+  border-radius: 20px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+  pointer-events: none;
+  animation: fadeInBubble 1s ease forwards;
+}
+/* Triangulito que conecta el globito con la bolita */
+.whatsapp-button::after {
+  content: "";
+  position: absolute;
+  bottom: 58px;
+  right: 18px;
+  border-width: 7px 7px 0 7px;
+  border-style: solid;
+  border-color: #25d366 transparent transparent transparent;
+  pointer-events: none;
+}
+@keyframes fadeInBubble {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 .phone-button {
   position: fixed;
