@@ -1315,9 +1315,9 @@ https://twitter.com/marco_bf
     </section>
 
 
-    <section class="row col-12 p-0 m-0">
+    <section class="row col-12 p-0 m-0" style="background: #f5f0e8;">
 
-        <div class="col-12 col-md-6 text-center aparece" id="cards" style="background-image: url(./assets/img/Marble_idk.jpg);">
+        <div class="col-12 col-md-6 text-center aparece" id="cards" style="background: linear-gradient(135deg, #f0ebe0 0%, #e8e0d0 50%, #ddd4c0 100%); padding-top: 2rem; padding-bottom: 2rem;">
 
             <style>
                 .pro-map-container { position: relative; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin: 3rem 2rem 1rem 2rem; border: 1px solid #444; }
@@ -1341,42 +1341,66 @@ https://twitter.com/marco_bf
 
         </div>
 
-        <div class="col-12 col-md-6 p-4 img-buho aparece" id="cards">
+        <div class="col-12 col-md-6 p-4 aparece" id="cards" style="background: #faf7f2;">
 
             <style>
                 .form-asesoria { text-align: left; padding-top: 10px; }
                 .form-asesoria .form-group { margin-bottom: 15px; }
-                .form-asesoria label { font-size: 13px; font-weight: 600; color: #555; margin-bottom: 5px; display: block; }
-                .form-asesoria input, .form-asesoria textarea { width: 100%; background: #1a1a1a; border: 1px solid #333; color: #fff; border-radius: 8px; padding: 12px 15px; font-size: 14px; transition: all 0.3s ease; }
-                .form-asesoria input::placeholder, .form-asesoria textarea::placeholder { color: #888; }
-                .form-asesoria input:focus, .form-asesoria textarea:focus { outline: none; border-color: #555; box-shadow: 0 0 0 2px rgba(255,255,255,0.1); }
+                .form-asesoria label { font-size: 13px; font-weight: 600; color: #6b5c45; margin-bottom: 5px; display: block; }
+                .form-asesoria input, .form-asesoria textarea { width: 100%; background: #fff; border: 1px solid #d4c9b8; color: #333; border-radius: 8px; padding: 12px 15px; font-size: 14px; transition: all 0.3s ease; }
+                .form-asesoria input::placeholder, .form-asesoria textarea::placeholder { color: #aaa; }
+                .form-asesoria input:focus, .form-asesoria textarea:focus { outline: none; border-color: #b59a6a; box-shadow: 0 0 0 2px rgba(181,154,106,0.15); }
                 .form-asesoria textarea { resize: vertical; min-height: 80px; }
-                .btn-agendar { background: #1a1a1a; color: #fff; border: none; width: 100%; padding: 14px; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer; transition: background 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 10px; }
-                .btn-agendar:hover { background: #000; }
-                .form-footer { text-align: center; font-size: 11px; color: #666; margin-top: 15px; display: flex; align-items: center; justify-content: center; gap: 5px; }
+                .btn-agendar { background: #2c2118; color: #fff; border: none; width: 100%; padding: 14px; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 10px; }
+                .btn-agendar:hover { background: #b59a6a; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(181,154,106,0.3); }
+                .form-footer { text-align: center; font-size: 11px; color: #888; margin-top: 15px; display: flex; align-items: center; justify-content: center; gap: 5px; }
             </style>
             
-            <p class="text-p-form mb-0" style="text-transform: uppercase; letter-spacing: 1px; font-size: 12px; color: #666;">Asesor&#237;a Legal</p>
-            <h2 class="title-form mb-2" style="font-size: 28px;">Agenda tu asesor&#237;a gratuita</h2>
-            <p style="font-size: 14px; color: #555; line-height: 1.4; margin-bottom: 20px;">Cu&#233;ntanos brevemente tu situaci&#243;n. Un abogado te contacta en menos de 24 horas.</p>
+            <p class="text-p-form mb-0" style="text-transform: uppercase; letter-spacing: 1px; font-size: 12px; color: #b59a6a;">Asesor&#237;a Legal</p>
+            <h2 class="title-form mb-2" style="font-size: 28px; color: #2c2118;">Agenda tu asesor&#237;a gratuita</h2>
+            <p style="font-size: 14px; color: #6b5c45; line-height: 1.4; margin-bottom: 20px;">Cu&#233;ntanos brevemente tu situaci&#243;n. Un abogado te contacta en menos de 24 horas.</p>
 
+            <style>
+                .form-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+                @media (max-width: 480px) { .form-2col { grid-template-columns: 1fr; } }
+            </style>
             <form class="form-asesoria" id="form-whatsapp" onsubmit="enviarWhatsApp(event)">
-                <div class="form-group">
-                    <label>Nombre completo</label>
-                    <input type="text" id="wa-nombre" placeholder="Ej. Juana P&#233;rez" required>
+                <div class="form-2col">
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Nombre completo</label>
+                        <input type="text" id="wa-nombre" placeholder="Ej. Juana P&#233;rez" required style="padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Correo electr&#243;nico</label>
+                        <input type="email" id="wa-email" placeholder="nombre@gmail.com" required style="padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333;">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>Tel&#233;fono</label>
-                    <input type="tel" id="wa-telefono" placeholder="222 123 4567" required>
+                <div class="form-2col">
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">&#193;rea de inter&#233;s</label>
+                        <select id="wa-area" required style="background:#fff;color:#333;border:1px solid #d4c9b8;border-radius:6px;padding:10px 12px;width:100%;font-size:13px;outline:none;appearance:none;-webkit-appearance:none;box-sizing:border-box;">
+                            <option value="" disabled selected>Seleccione...</option>
+                            <option value="Corporativo">Corporativo</option>
+                            <option value="Inmobiliario">Inmobiliario</option>
+                            <option value="Patrimonial">Patrimonial</option>
+                            <option value="Administrativo">Administrativo</option>
+                            <option value="Ambiental">Ambiental</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Fecha preferida</label>
+                        <input type="date" id="wa-fecha" style="background:#fff;color:#333;border:1px solid #d4c9b8;border-radius:6px;padding:9px 12px;width:100%;font-size:13px;outline:none;box-sizing:border-box;">
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label>Mensaje (opcional)</label>
-                    <textarea id="wa-mensaje" placeholder="Ej. Necesito asesor&#237;a en un contrato mercantil"></textarea>
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Cu&#233;ntenos su situaci&#243;n</label>
+                    <textarea id="wa-mensaje" placeholder="Ej. Necesito ayuda con un tr&#225;mite de divorcio..." style="min-height:60px; padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333; resize:none;"></textarea>
                 </div>
-                <button type="submit" class="btn-agendar">Agendar mi asesor&#237;a <i class="fas fa-arrow-right"></i></button>
-                <div class="form-footer">
-                    <i class="fas fa-lock"></i> Tu informaci&#243;n es 100% confidencial
+                <p style="font-size:10px;color:#777;text-align:center;margin-bottom:10px;line-height:1.4;">Al hacer clic en &ldquo;Agendar&rdquo;, aceptas nuestros <a href="terminos.html" style="color:#b59a6a;">T&#233;rminos</a> y <a href="privacidad.html" style="color:#b59a6a;">Aviso de Privacidad</a>.</p>
+                <button type="submit" class="btn-agendar" style="padding:12px; border-radius:6px; font-size:14px; margin-top:0;">Agendar mi asesor&#237;a <i class="fas fa-arrow-right"></i></button>
+                <div class="form-footer" style="margin-top:10px; font-size:10px;">
+                    <i class="fas fa-lock"></i> La informaci&#243;n compartida es estrictamente confidencial.
                 </div>
             </form>
 
@@ -1384,15 +1408,17 @@ https://twitter.com/marco_bf
             function enviarWhatsApp(e) {
                 e.preventDefault();
                 var nombre = document.getElementById('wa-nombre').value;
-                var tel = document.getElementById('wa-telefono').value;
-
+                var email = document.getElementById('wa-email').value;
+                var area = document.getElementById('wa-area').value;
                 var msj = document.getElementById('wa-mensaje').value;
+                var fecha = document.getElementById('wa-fecha').value;
                 
-                var texto = 'Hola CCA Abogados, me gustaría agendar una asesoría gratuita.\n\n';
+                var texto = 'Hola CCA Abogados, me gustar\u00eda agendar una asesor\u00eda gratuita.\n\n';
                 texto += '*Nombre:* ' + nombre + '\n';
-                texto += '*Teléfono:* ' + tel + '\n';
-
-                if(msj) texto += '*Mensaje:* ' + msj + '\n';
+                texto += '*Correo:* ' + email + '\n';
+                texto += '*\u00c1rea de inter\u00e9s:* ' + area + '\n';
+                if(msj) texto += '*Situaci\u00f3n:* ' + msj + '\n';
+                if(fecha) texto += '*Fecha preferida:* ' + fecha + '\n';
                 
                 window.open('https://wa.me/525534042896?text=' + encodeURIComponent(texto), '_blank');
             }
@@ -1424,32 +1450,22 @@ https://twitter.com/marco_bf
 
             <div class="col-12 text-center">
 
-                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" alt="" /></a>
-
+                                                                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" alt="" /></a>
                 <a href="https://twitter.com/castro_despacho">
-
                     <img src="./assets/img/social-network/icons8-twitter.svg" width="30" alt="" />
-
                 </a>
-
-                <a href="https://www.instagram.com/cca_abogados/">
-
-                    <img src="./assets/img/social-network/instagram.png" width="30" alt="" />
-
+                <a href="https://www.instagram.com/cca_abogados/" style="text-decoration: none;">
+                    <i class="fab fa-instagram" style="font-size: 30px; color: #fff; margin: 0 8px; vertical-align: middle;"></i>
                 </a>
-
+                <a href="https://www.tiktok.com/@ccaabogados?_r=1&_t=ZS-99uMjrD3rip" style="text-decoration: none;">
+                    <i class="fab fa-tiktok" style="font-size: 30px; color: #fff; margin: 0 8px; vertical-align: middle;"></i>
+                </a>
                 <!--<a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
-
                     <img src="./assets/img/social-network/linkedin.png" width="30" alt="" />
-
                 </a>-->
-
                 <a href="https://www.youtube.com/channel/UC4dOqk-nOPwqfpGVDKDreoQ">
-
                     <img src="./assets/img/social-network/youtube.png" width="30" alt="" />
-
                 </a>
-
             </div>
 
             <div class="col-12 text-center">
@@ -1631,7 +1647,7 @@ https://twitter.com/marco_bf
                 loop: true,
                 autoHeight: true,
                 autoplay: true,
-                autoplayTimeout: 3000,
+                autoplayTimeout: 8000,
                 autoplayHoverPause: true,
                 nav: true,
                 navText: ['<i class="fas fa-chevron-left" style="font-size: 24px; color: #292929; margin-right: 10px;"></i>', '<i class="fas fa-chevron-right" style="font-size: 24px; color: #292929; margin-left: 10px;"></i>'],
