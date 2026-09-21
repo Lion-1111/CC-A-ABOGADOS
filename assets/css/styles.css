@@ -852,3 +852,13 @@ hr {
   background-position-y: 100% !important;
   background-size: 45% !important;
 }
+
+/* ── Etiquetas de título de tarjeta (caja oscura + texto blanco) ─────────── */
+/* Evita que palabras largas como "EMPRENDEDORES" se partan en móvil */
+p.mt-3.text-center[style*="background-color: #292929"] {
+  white-space: nowrap;
+  font-size: clamp(0.62rem, 3.2vw, 0.9rem);
+  padding: 0.25rem 0.75rem;
+  letter-spacing: 0.08em;
+  overflow: hidden;
+}

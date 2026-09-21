@@ -348,133 +348,253 @@
 
                 <hr class="col-12 col-md-1 text-left ml-1 mr-0 p-0 mt-1 mb-3" style="border: solid 1px #0d0807;">
 
-                <p class="text-p-6 col-md-6 px-0 text-justify ">
-
-                    <strong style="font-size: 150%;padding-bottom: 5rem;"><i>Estudia</i>. </strong>&nbsp;El
-
-                    derecho se transforma constantemente, <strong style="font-size: 135%;margin-top: 1rem;"> si no sigues sus pasos, serás cada día menos abogado.</strong><br>
-
-                    <br>
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i>Piensa.</i></strong>&nbsp; El derecho se
-
-                    aprende estudiando,
-
-                    <strong style="font-size: 135%;margin-top: 1rem;">pero se ejerce pensando.</strong><br>
-
-                    <br>
-
-
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i>Lucha.</i></strong>&nbsp;Tu deber es luchar
-
-                    por el
-
-                    derecho; pero el día en que encuentres en conflicto el derecho con la justicia,<strong style="font-size: 135%;margin-top: 1rem;"> lucha por la
-
-                        justicia</strong><br>
-
-                    <br>
-
-
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i>Trabaja</i>.</strong>&nbsp; La abogacía es una
-
-                    ardua fatiga
-
-                    <strong style="font-size: 135%;margin-top: 1rem;">puesta al servicio de la justicia.</strong> <br>
-
-                    <br>
-
-
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i>Sé leal.</i></strong>&nbsp;Leal para con tu
-
-                    cliente, <strong style="font-size: 135%;margin-top: 1rem;">al que
-
-                        no debes abandonar hasta que comprendas que es indigno de ti. Leal con el adversario, aún cuando él
-
-                        sea desleal contigo. Leal para con el juez, que ignora los hechos y debe confiar en lo que tú le
-
-                        dices; y que, en cuanto al derecho, alguna que otra vez debe confiar en lo que tú invocas.</strong><br>
-
-
-
-                    <br>
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i>Tolera.</i></strong>&nbsp;Tolera la verdad
-
-                    ajena en la <strong style="font-size: 135%;margin-top: 1rem;">misma
-
-                        medida en que quieres que sea
-
-                        tolerada la tuya.</strong><br>
-
-                    <br>
-
-
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i>Ten paciencia.</i></strong>&nbsp;En el derecho, el tiempo se venga <strong style="font-size: 135%;margin-top: 1rem;">de las cosas que se hacen sin su colaboración.</strong><br>
-
-
-
-                    <br>
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i>Ten fe.</i></strong>&nbsp;Ten fe en el derecho
-
-                    como el
-
-                    mejor
-
-                    instrumento para la convivencia humana; en la justicia, como destino normal del derecho; <strong style="font-size: 135%;margin-top: 1rem;">en la paz
-
-                        como sustitutivo bondadoso de la justicia; y sobre todo ten fe en la libertad, sin la cual no hay
-
-                        derecho, ni justicia, ni paz.</strong><br>
-
-                    <br>
-
-
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i> Olvida.</i></strong>&nbsp; La abogacía es una
-
-                    lucha de
-
-                    pasiones. Si en cada batalla fueras llenando tu alma de rencor, llegará un día que la vida será
-
-                    imposible para ti. Concluido el combate, <strong style="font-size: 135%;margin-top: 1rem;"><em>olvida
-
-                            tan pronto tu victoria como tu derrota.</em></strong>
-
-                    <br>
-
-                    <br>
-
-
-
-                    <strong style="font-size: 160%;margin-top: 1rem;"><i> Ama tu profesión.</i></strong>&nbsp; Trata de
-
-                    considerar la
-
-                    abogacía de tal manera, que el día en que tu hijo te pida consejo sobre su destino, <strong style="font-size: 135%;margin-top: 1rem;">consideres un
-
-                        honor
-
-                        para ti proponerle que se haga Abogado.</strong>
-
-                </p>
+                
+                                <style>
+                    .decalogo-acc-btn {
+                        background: #111;
+                        border: 1px solid #333;
+                        border-radius: 8px !important;
+                        transition: all 0.3s ease;
+                        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+                    }
+                    .decalogo-acc-btn:hover, .decalogo-acc-btn[aria-expanded="true"] {
+                        background: #1a1a1a;
+                        border-color: #b59a6a;
+                        transform: translateX(5px);
+                    }
+                    .decalogo-acc-btn[aria-expanded="true"] .fa-chevron-down {
+                        transform: rotate(180deg);
+                    }
+                    .decalogo-icon {
+                        color: #b59a6a;
+                        font-size: 1.6rem;
+                        width: 40px;
+                        text-align: center;
+                    }
+                    .decalogo-body-wrap {
+                        border-left: 2px solid #b59a6a;
+                        margin-left: 2.2rem;
+                        padding-left: 1.5rem;
+                        padding-top: 1rem;
+                        padding-bottom: 1rem;
+                        color: #ccc;
+                        font-size: 1rem;
+                        line-height: 1.6;
+                    }
+                </style>
+
+                <div class="accordion mt-5 mb-5 w-100" id="accordionDecalogo">
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var btns = document.querySelectorAll('.decalogo-acc-btn');
+                        btns.forEach(function(btn) {
+                            btn.addEventListener('click', function() {
+                                var targetId = this.getAttribute('data-target');
+                                var target = document.querySelector(targetId);
+                                var isExpanded = this.getAttribute('aria-expanded') === 'true';
+                                
+                                // Close all others
+                                btns.forEach(function(b) {
+                                    b.setAttribute('aria-expanded', 'false');
+                                    b.classList.add('collapsed');
+                                    var t = document.querySelector(b.getAttribute('data-target'));
+                                    if(t) t.classList.remove('show');
+                                });
+                                
+                                // Toggle current
+                                if (!isExpanded) {
+                                    this.setAttribute('aria-expanded', 'true');
+                                    this.classList.remove('collapsed');
+                                    if(target) target.classList.add('show');
+                                }
+                            });
+                        });
+                    });
+                </script>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading0">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 " type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                                <i class="fas fa-book-reader mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">1. Estudia</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse0" class="collapse show" aria-labelledby="heading0" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    El derecho se transforma constantemente, <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">si no sigues sus pasos, serás cada día menos abogado.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading1">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                <i class="fas fa-brain mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">2. Piensa</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse1" class="collapse " aria-labelledby="heading1" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    El derecho se aprende estudiando, <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">pero se ejerce pensando.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading2">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                <i class="fas fa-fist-raised mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">3. Lucha</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse2" class="collapse " aria-labelledby="heading2" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    Tu deber es luchar por el derecho; pero el día en que encuentres en conflicto el derecho con la justicia, <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">lucha por la justicia.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading3">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                <i class="fas fa-briefcase mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">4. Trabaja</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse3" class="collapse " aria-labelledby="heading3" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    La abogacía es una ardua fatiga <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">puesta al servicio de la justicia.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading4">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <i class="fas fa-handshake mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">5. Sé leal</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse4" class="collapse " aria-labelledby="heading4" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    Leal para con tu cliente, al que no debes abandonar hasta que comprendas que es indigno de ti. Leal con el adversario, aún cuando él sea desleal contigo. <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">Leal para con el juez, que ignora los hechos y debe confiar en lo que tú le dices; y que, en cuanto al derecho, alguna que otra vez debe confiar en lo que tú invocas.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading5">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                <i class="fas fa-users mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">6. Tolera</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse5" class="collapse " aria-labelledby="heading5" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    Tolera la verdad ajena en la <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">misma medida en que quieres que sea tolerada la tuya.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading6">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                <i class="fas fa-hourglass-half mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">7. Ten paciencia</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse6" class="collapse " aria-labelledby="heading6" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    En el derecho, el tiempo se venga <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">de las cosas que se hacen sin su colaboración.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading7">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                <i class="fas fa-dove mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">8. Ten fe</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse7" class="collapse " aria-labelledby="heading7" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    Ten fe en el derecho como el mejor instrumento para la convivencia humana; en la justicia, como destino normal del derecho; <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">en la paz como sustitutivo bondadoso de la justicia; y sobre todo ten fe en la libertad, sin la cual no hay derecho, ni justicia, ni paz.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading8">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                <i class="fas fa-eraser mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">9. Olvida</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse8" class="collapse " aria-labelledby="heading8" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    La abogacía es una lucha de pasiones. Si en cada batalla fueras llenando tu alma de rencor, llegará un día que la vida será imposible para ti. <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">Concluido el combate, olvida tan pronto tu victoria como tu derrota.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-0 mb-3 aparece">
+                        <div class="card-header p-0 bg-transparent border-0" id="heading9">
+                            <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                <i class="fas fa-heart mr-3 decalogo-icon"></i>
+                                <span style="font-size:1.1rem; font-family:Georgia, serif; letter-spacing:1px; font-weight:600; text-transform:uppercase;">10. Ama tu profesión</span>
+                                <i class="fas fa-chevron-down ml-auto" style="color:#666; transition:transform 0.3s;"></i>
+                            </button>
+                        </div>
+                        <div id="collapse9" class="collapse " aria-labelledby="heading9" data-parent="#accordionDecalogo">
+                            <div class="card-body p-0">
+                                <div class="decalogo-body-wrap text-justify">
+                                    Trata de considerar la abogacía de tal manera, que el día en que tu hijo te pida consejo sobre su destino, <br><br>
+                                    <strong style="color:#b59a6a; font-weight:normal;">consideres un honor para ti proponerle que se haga Abogado.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-
-            <br>
-
-            <br>
-
-            <br>
-
-            <br>
-
-            <br>
 
         </div>
 
@@ -488,73 +608,35 @@
 
         <div class="container aparece" id="cards">
 
-            <div class="col-12 row p-0 m-0">
+            <div class="col-12 row p-0 m-0 justify-content-center">
 
-                <div class="zoom col-12 col-sm-10 col-md-5 col-lg-3 mx-auto bg-negro text-center p-4 mt-4">
+                <div class="zoom col-12 col-sm-10 col-md-5 col-lg-4 mx-auto bg-negro text-center p-4 mt-4" style="border-radius:15px; border:1px solid #333;">
 
-                    <!-- <img src="./assets/img/Iconos/comillas.png" class="mb-4 mt-2" width="35" alt="" /> -->
-
-                    <div class="col-12 col-sm-10 col-sm-12 col-md-6 col-lg-12 mt-5 mx-auto ">
-
-                        <img src="./assets/img/blog/4.png" class="img img-fluid" alt="" />
-
+                    <div class="col-12 mt-3 mx-auto">
+                        <img src="./assets/img/blog/4.png" class="img img-fluid" style="max-height: 80px; object-fit: contain;" alt="SEPLAFI" />
                     </div>
 
                     <p class="text-p-2 mb-0 mt-4 ">&nbsp;</p>
 
                     <p class="text-p text-justify">
-
-                        Tenemos mas de 10 años conociendo a su titular, quien siempre ha trabajado con entusiasmo, profesionalismo y entrega en resolver nuestros problemas y dando soluciones satisfactorias, por tal mótivo damos nuestro voto de cálidad de su servicio
-
+                        Tenemos mas de 10 a&#241;os conociendo a su titular, quien siempre ha trabajado con entusiasmo, profesionalismo y entrega en resolver nuestros problemas y dando soluciones satisfactorias, por tal m&#243;tivo damos nuestro voto de c&#225;lidad de su servicio
                     </p>
-
-
-
-
 
                 </div>
 
-                <div class="col-12 col-sm-10 col-md-5 col-lg-3 mx-auto bg-negro text-center p-4 mt-4">
+                <div class="zoom col-12 col-sm-10 col-md-5 col-lg-4 mx-auto bg-negro text-center p-4 mt-4" style="border-radius:15px; border:1px solid #333;">
 
-                    <div class="col-12 col-sm-10 col-sm-12 col-md-6 col-lg-12 mt-5 mx-auto">
-
-                        <img src="./assets/img/blog/gts.jpg" class="img img-fluid" alt="" />
-
-                    </div>
-
-                    <p class="text-p-2 mb-0 mt-4">&nbsp;</p>
-
-                    <!-- <img src="./assets/img/Iconos/comillas.png" class="mb-4 mt-2" width="35" alt="" /> -->
-
-                    <p class="text-p text-justify">En CCA&A Abogados la cultura de excelencia está en su ADN, lo que les ha llevado a ofrecer soluciones legales de carácter integral, con un alto énfasis en sus clientes, trabajando de la mano, brindando soluciones certeras e innovadoras que los distinguen de los demás "Todo el éxico CCA&A Abogados, en hora buena".
-
-                    </p>
-
-
-
-                </div>
-
-                <div class="col-12 col-sm-10 col-md-5 col-lg-3 mx-auto bg-negro text-center p-4 mt-4">
-
-                    <!-- <img src="./assets/img/Iconos/comillas.png" class="mb-4 mt-2" width="35" alt="" /> -->
-
-                    <div class="col-12 col-sm-10 col-sm-12 col-md-6 col-lg-7 mt-5 mx-auto">
-
-                        <img src="./assets/img/blog/margarita-madrigal-espinoza.jpg" class="img-fluid rounded my-3" alt="" />
-
+                    <div class="col-12 mt-3 mx-auto">
+                        <img src="./assets/img/blog/margarita-madrigal-espinoza.jpg" class="img-fluid rounded-circle" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid #b59a6a;" alt="Margarita Madrigal" />
                     </div>
 
                     <p class="text-p-2 mb-0 mt-4">&nbsp;</p>
 
                     <p class="text-p text-justify"> 
-                        <span style="color:gray;">MARGARITA MADRIGAL ESPINOSA</span>
-                        <br>
-                        <span>He tenido la fortuna de conocer este grupo de Profesionales en el proceso de varios asuntos legales. En los que con el acompañamiento Honesto, Agradable y Humano, por parte especialmente de Lic. Miriam ha sido de excelencia. Siendo recomendados a mis conocidos y familiares por su gran servicio y atención. Gracias a todos.</span>
+                        <span style="color:#b59a6a; font-weight:bold; letter-spacing:1px;">MARGARITA MADRIGAL ESPINOSA</span>
+                        <br><br>
+                        <span>He tenido la fortuna de conocer este grupo de Profesionales en el proceso de varios asuntos legales. En los que con el acompa&#241;amiento Honesto, Agradable y Humano, por parte especialmente de Lic. Miriam ha sido de excelencia. Siendo recomendados a mis conocidos y familiares por su gran servicio y atenci&#243;n. Gracias a todos.</span>
                     </p>
-
-
-
-
 
                 </div>
 
@@ -901,32 +983,22 @@
 
             <div class="col-12 text-center">
 
-                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" alt="" /></a>
-
+                                                                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" alt="" /></a>
                 <a href="https://twitter.com/castro_despacho">
-
                     <img src="./assets/img/social-network/icons8-twitter.svg" width="30" alt="" />
-
                 </a>
-
-                <a href="https://www.instagram.com/cca_abogados/">
-
-                    <img src="./assets/img/social-network/instagram.png" width="30" alt="" />
-
+                <a href="https://www.instagram.com/cca_abogados/" style="text-decoration: none;">
+                    <i class="fab fa-instagram" style="font-size: 30px; color: #fff; margin: 0 8px; vertical-align: middle;"></i>
                 </a>
-
+                <a href="https://www.tiktok.com/@ccaabogados?_r=1&_t=ZS-99uMjrD3rip" style="text-decoration: none;">
+                    <i class="fab fa-tiktok" style="font-size: 30px; color: #fff; margin: 0 8px; vertical-align: middle;"></i>
+                </a>
                 <!--<a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
-
                     <img src="./assets/img/social-network/linkedin.png" width="30" alt="" />
-
                 </a>-->
-
                 <a href="https://www.youtube.com/channel/UC4dOqk-nOPwqfpGVDKDreoQ">
-
                     <img src="./assets/img/social-network/youtube.png" width="30" alt="" />
-
                 </a>
-
             </div>
 
             <div class="col-12 text-center">
@@ -1117,7 +1189,54 @@
 
         <script src="assets/mail/contact_me.js"></script>
 
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Seleccionamos los títulos que queremos animar (los principales y los de misión/visión)
+                const titles = document.querySelectorAll('.title-title-2, .title-about, .title-3');
+                
+                titles.forEach(title => {
+                    const text = title.textContent.trim().replace(/\s+/g, ' ');
+                    title.innerHTML = '';
+                    let delay = 0;
+                    
+                    // Separamos por letras
+                    for (let i = 0; i < text.length; i++) {
+                        let char = text[i];
+                        let span = document.createElement('span');
+                        span.textContent = char === ' ' ? '\u00A0' : char;
+                        span.style.opacity = '0';
+                        span.style.display = 'inline-block';
+                        // Efecto inicial: más abajo y un poco rotado o escalado
+                        span.style.transform = 'translateY(20px) scale(0.9)';
+                        span.style.transition = 'opacity 0.5s ease, transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                        span.style.transitionDelay = `${delay}s`;
+                        
+                        // Respetar saltos de línea si es necesario, aunque los h1 suelen ser una línea
+                        title.appendChild(span);
+                        
+                        // Incrementamos el delay por cada letra para el efecto cascada
+                        delay += 0.02; 
+                    }
 
+                    // Intersection Observer para disparar la animación al hacer scroll
+                    const observer = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const spans = entry.target.querySelectorAll('span');
+                                spans.forEach(span => {
+                                    span.style.opacity = '1';
+                                    span.style.transform = 'translateY(0) scale(1)';
+                                });
+                                // Dejamos de observar una vez que ya se animó
+                                observer.unobserve(entry.target);
+                            }
+                        });
+                    }, { threshold: 0.1 }); // Se dispara cuando el 10% del título es visible
+
+                    observer.observe(title);
+                });
+            });
+        </script>
 
 </body>
 
