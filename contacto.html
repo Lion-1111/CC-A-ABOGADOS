@@ -126,18 +126,18 @@
         </div>
     </div>
     <!-- Navbar -->
-    <section class="margin-header" style="background-image: url(./assets/img/banners/Banner_2_3.jpg);background-size: 100%;background-position-y: 35%;">
+    <section class="margin-header" style="background-color: #f5f0e8;">
         <div class=" mt-5 pt-5" style="padding-top:3rem;padding-bottom:3rem">
             <div class="col-12 pt-5 mb-5">
-                <h3 class="title-4 text-center">Contáctanos</h3>
-                <p class="text-white mb-2 mt-4 text-center"><img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20" alt=""></img> <a href="https://maps.app.goo.gl/LHmKRcBibgpPzYca7" class="text-white">Camino a San Buenaventura, Mex,
+                <h3 class="title-4 text-center" style="color: #2c2118 !important;">Contáctanos</h3>
+                <p class="mb-2 mt-4 text-center" style="color: #6b5c45 !important;"><img src="./assets/img/Iconos/alfiler.svg" class="mb-2" width="20" alt="" style="filter: brightness(0) saturate(100%) invert(18%) sepia(16%) saturate(2335%) hue-rotate(345deg) brightness(94%) contrast(92%);"></img> <a href="https://maps.app.goo.gl/LHmKRcBibgpPzYca7" style="color: #6b5c45 !important;">Camino a San Buenaventura, Mex,
                         Estado de México</a></p>
-                <p class="text-white mb-2 text-center"><img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20" alt=""></img> <a class="text-white" href="tel:+525534042896">55-34-04-28-96</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20" alt=""></img> <a class="text-white" href="tel:+525534042896">55-34-04-28-96</a>
+                <p class="mb-2 text-center" style="color: #6b5c45 !important;"><img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20" alt="" style="filter: brightness(0) saturate(100%) invert(18%) sepia(16%) saturate(2335%) hue-rotate(345deg) brightness(94%) contrast(92%);"></img> <a href="tel:+525534042896" style="color: #6b5c45 !important;">55-34-04-28-96</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/img/Iconos/llamada-telefonica.svg" class="mb-2" width="20" alt="" style="filter: brightness(0) saturate(100%) invert(18%) sepia(16%) saturate(2335%) hue-rotate(345deg) brightness(94%) contrast(92%);"></img> <a href="tel:+525534042896" style="color: #6b5c45 !important;">55-34-04-28-96</a>
                 </p>
                 
-                    <p class="text-white mb-2 text-center"> <img src="./assets/img/Iconos/correo.svg" class="" width="20" alt=""></img> <a href="mailto:contacto@abogados-cca.com" class="text-white">contacto@abogados-cca.com</a></p>
-                </a>
+                    <p class="mb-2 text-center" style="color: #6b5c45 !important;"> <img src="./assets/img/Iconos/correo.svg" class="" width="20" alt="" style="filter: brightness(0) saturate(100%) invert(18%) sepia(16%) saturate(2335%) hue-rotate(345deg) brightness(94%) contrast(92%);"></img> <a href="mailto:contacto@abogados-cca.com" style="color: #6b5c45 !important;">contacto@abogados-cca.com</a></p>
+                
             </div>
         </div>
     </section>
@@ -186,23 +186,47 @@
             <h2 class="title-form mb-2" style="font-size: 28px;">Agenda tu asesor&#237;a gratuita</h2>
             <p style="font-size: 14px; color: #555; line-height: 1.4; margin-bottom: 20px;">Cu&#233;ntanos brevemente tu situaci&#243;n. Un abogado te contacta en menos de 24 horas.</p>
 
+            <style>
+                .form-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+                @media (max-width: 480px) { .form-2col { grid-template-columns: 1fr; } }
+            </style>
             <form class="form-asesoria" id="form-whatsapp" onsubmit="enviarWhatsApp(event)">
-                <div class="form-group">
-                    <label>Nombre completo</label>
-                    <input type="text" id="wa-nombre" placeholder="Ej. Juana P&#233;rez" required>
+                <div class="form-2col">
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Nombre completo</label>
+                        <input type="text" id="wa-nombre" placeholder="Ej. Juana P&#233;rez" required style="padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Correo electr&#243;nico</label>
+                        <input type="email" id="wa-email" placeholder="nombre@gmail.com" required style="padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333;">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>Tel&#233;fono</label>
-                    <input type="tel" id="wa-telefono" placeholder="222 123 4567" required>
+                <div class="form-2col">
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">&#193;rea de inter&#233;s</label>
+                        <select id="wa-area" required style="background:#1a1a1a;color:#ccc;border:1px solid #333;border-radius:6px;padding:10px 12px;width:100%;font-size:13px;outline:none;appearance:none;-webkit-appearance:none;box-sizing:border-box;">
+                            <option value="" disabled selected>Seleccione...</option>
+                            <option value="Corporativo">Corporativo</option>
+                            <option value="Inmobiliario">Inmobiliario</option>
+                            <option value="Patrimonial">Patrimonial</option>
+                            <option value="Administrativo">Administrativo</option>
+                            <option value="Ambiental">Ambiental</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Fecha preferida</label>
+                        <input type="date" id="wa-fecha" style="background:#1a1a1a;color:#ccc;border:1px solid #333;border-radius:6px;padding:9px 12px;width:100%;font-size:13px;outline:none;box-sizing:border-box;">
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label>Mensaje (opcional)</label>
-                    <textarea id="wa-mensaje" placeholder="Ej. Necesito asesor&#237;a en un contrato mercantil"></textarea>
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <label style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Cu&#233;ntenos su situaci&#243;n</label>
+                    <textarea id="wa-mensaje" placeholder="Ej. Necesito ayuda con un tr&#225;mite de divorcio..." style="min-height:60px; padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333; resize:none;"></textarea>
                 </div>
-                <button type="submit" class="btn-agendar">Agendar mi asesor&#237;a <i class="fas fa-arrow-right"></i></button>
-                <div class="form-footer">
-                    <i class="fas fa-lock"></i> Tu informaci&#243;n es 100% confidencial
+                <p style="font-size:10px;color:#777;text-align:center;margin-bottom:10px;line-height:1.4;">Al hacer clic en &ldquo;Agendar&rdquo;, aceptas nuestros <a href="terminos.html" style="color:#b59a6a;">T&#233;rminos</a> y <a href="privacidad.html" style="color:#b59a6a;">Aviso de Privacidad</a>.</p>
+                <button type="submit" class="btn-agendar" style="padding:12px; border-radius:6px; font-size:14px; margin-top:0;">Agendar mi asesor&#237;a <i class="fas fa-arrow-right"></i></button>
+                <div class="form-footer" style="margin-top:10px; font-size:10px;">
+                    <i class="fas fa-lock"></i> La informaci&#243;n compartida es estrictamente confidencial.
                 </div>
             </form>
 
@@ -210,15 +234,17 @@
             function enviarWhatsApp(e) {
                 e.preventDefault();
                 var nombre = document.getElementById('wa-nombre').value;
-                var tel = document.getElementById('wa-telefono').value;
-
+                var email = document.getElementById('wa-email').value;
+                var area = document.getElementById('wa-area').value;
                 var msj = document.getElementById('wa-mensaje').value;
+                var fecha = document.getElementById('wa-fecha').value;
                 
-                var texto = 'Hola CCA Abogados, me gustaría agendar una asesoría gratuita.\n\n';
+                var texto = 'Hola CCA Abogados, me gustar\u00eda agendar una asesor\u00eda gratuita.\n\n';
                 texto += '*Nombre:* ' + nombre + '\n';
-                texto += '*Teléfono:* ' + tel + '\n';
-
-                if(msj) texto += '*Mensaje:* ' + msj + '\n';
+                texto += '*Correo:* ' + email + '\n';
+                texto += '*\u00c1rea de inter\u00e9s:* ' + area + '\n';
+                if(msj) texto += '*Situaci\u00f3n:* ' + msj + '\n';
+                if(fecha) texto += '*Fecha preferida:* ' + fecha + '\n';
                 
                 window.open('https://wa.me/525534042896?text=' + encodeURIComponent(texto), '_blank');
             }
@@ -228,7 +254,7 @@
 
     </section>
 
-    <footer style="background-color:#000 !important">
+    <footer style="background-color:#2d241e !important">
 
         <div class="row col-12 p-0 m-0">
 
@@ -250,32 +276,22 @@
 
             <div class="col-12 text-center">
 
-                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" alt="" /></a>
-
+                                                                <a href="https://www.facebook.com/abogadoscca/?locale=es_LA"><img src="./assets/img/social-network/icons8-facebook.svg" class="mr-3 mb-2" width="30" alt="" /></a>
                 <a href="https://twitter.com/castro_despacho">
-
                     <img src="./assets/img/social-network/icons8-twitter.svg" width="30" alt="" />
-
                 </a>
-
-                <a href="https://www.instagram.com/cca_abogados/">
-
-                    <img src="./assets/img/social-network/instagram.png" width="30" alt="" />
-
+                <a href="https://www.instagram.com/cca_abogados/" style="text-decoration: none;">
+                    <i class="fab fa-instagram" style="font-size: 30px; color: #fff; margin: 0 8px; vertical-align: middle;"></i>
                 </a>
-
+                <a href="https://www.tiktok.com/@ccaabogados?_r=1&_t=ZS-99uMjrD3rip" style="text-decoration: none;">
+                    <i class="fab fa-tiktok" style="font-size: 30px; color: #fff; margin: 0 8px; vertical-align: middle;"></i>
+                </a>
                 <!--<a href="https://www.linkedin.com/in/constantinocastro-asociados-a1402a1b5/">
-
                     <img src="./assets/img/social-network/linkedin.png" width="30" alt="" />
-
                 </a>-->
-
                 <a href="https://www.youtube.com/channel/UC4dOqk-nOPwqfpGVDKDreoQ">
-
                     <img src="./assets/img/social-network/youtube.png" width="30" alt="" />
-
                 </a>
-
             </div>
 
             <div class="col-12 text-center">
