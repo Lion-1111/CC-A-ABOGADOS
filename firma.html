@@ -385,34 +385,6 @@
 
                 <div class="accordion mt-5 mb-5 w-100" id="accordionDecalogo">
 
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var btns = document.querySelectorAll('.decalogo-acc-btn');
-                        btns.forEach(function(btn) {
-                            btn.addEventListener('click', function() {
-                                var targetId = this.getAttribute('data-target');
-                                var target = document.querySelector(targetId);
-                                var isExpanded = this.getAttribute('aria-expanded') === 'true';
-                                
-                                // Close all others
-                                btns.forEach(function(b) {
-                                    b.setAttribute('aria-expanded', 'false');
-                                    b.classList.add('collapsed');
-                                    var t = document.querySelector(b.getAttribute('data-target'));
-                                    if(t) t.classList.remove('show');
-                                });
-                                
-                                // Toggle current
-                                if (!isExpanded) {
-                                    this.setAttribute('aria-expanded', 'true');
-                                    this.classList.remove('collapsed');
-                                    if(target) target.classList.add('show');
-                                }
-                            });
-                        });
-                    });
-                </script>
-
                     <div class="card bg-transparent border-0 mb-3 aparece">
                         <div class="card-header p-0 bg-transparent border-0" id="heading0">
                             <button class="btn btn-block text-left text-white d-flex align-items-center decalogo-acc-btn py-3 px-4 " type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
@@ -593,6 +565,47 @@
                         </div>
                     </div>
                 </div>
+
+                <script>
+                    (function() {
+                        function initDecalogo() {
+                            var btns = document.querySelectorAll('.decalogo-acc-btn');
+                            if (!btns.length) return;
+                            btns.forEach(function(btn) {
+                                // Remove Bootstrap data-toggle to prevent conflict
+                                btn.removeAttribute('data-toggle');
+                                
+                                btn.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    var targetId = this.getAttribute('data-target');
+                                    var target = document.querySelector(targetId);
+                                    var isExpanded = this.getAttribute('aria-expanded') === 'true';
+                                    
+                                    // Close all
+                                    btns.forEach(function(b) {
+                                        b.setAttribute('aria-expanded', 'false');
+                                        b.classList.add('collapsed');
+                                        var t = document.querySelector(b.getAttribute('data-target'));
+                                        if (t) t.classList.remove('show');
+                                    });
+                                    
+                                    // Open clicked one if it was closed
+                                    if (!isExpanded) {
+                                        this.setAttribute('aria-expanded', 'true');
+                                        this.classList.remove('collapsed');
+                                        if (target) target.classList.add('show');
+                                    }
+                                });
+                            });
+                        }
+                        if (document.readyState === 'loading') {
+                            document.addEventListener('DOMContentLoaded', initDecalogo);
+                        } else {
+                            initDecalogo();
+                        }
+                    })();
+                </script>
 
             </div>
 
