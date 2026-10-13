@@ -1,5 +1,6 @@
 {
-  "outputDirectory": ".",
+  "buildCommand": "mkdir -p vercel_out && find . -maxdepth 1 -name '*.html' -exec cp {} vercel_out/ \\; && cp -r assets vercel_out/assets && cp robots.txt vercel_out/ && cp sitemap.xml vercel_out/",
+  "outputDirectory": "vercel_out",
   "cleanUrls": true,
   "trailingSlash": false
 }
