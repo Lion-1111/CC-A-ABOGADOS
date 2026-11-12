@@ -104,12 +104,7 @@
     background-size: 25% !important;
   }
   .img-buho {
-    background-image: url(../img/buho_.png) !important;
-    /* background-image: url(../img/buho.png) !important; */
-    background-repeat: no-repeat !important;
-    background-position-x: 100% !important;
-    background-position-y: 100% !important;
-    background-size: 40% !important;
+    background-image: none !important;
   }
 
   .col-customer {
