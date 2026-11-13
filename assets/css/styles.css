@@ -865,19 +865,47 @@ p.mt-3.text-center[style*="background-color: #292929"] {
 
 /* ── Símbolo ® registrado en logo ── */
 .logo-reg {
-  font-size: 0.6em;
-  color: #fff;
-  vertical-align: super;
-  margin-left: 2px;
-  line-height: 1;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
   display: inline-block;
+  line-height: 1;
+  vertical-align: super;
+  position: relative;
+  top: -14px;
+  margin-left: -27px;
+  opacity: 0.95;
+  letter-spacing: normal;
+  pointer-events: none;
 }
+
+/* En el pie de página (donde el logo mide 200px) */
+footer .logo-reg {
+  font-size: 13px;
+  top: -22px;
+  margin-left: -44px;
+}
+
+/* En pie de página con logo de 150px o 180px */
+footer img[width="150"] + .logo-reg,
+footer img[width="180"] + .logo-reg {
+  font-size: 11px;
+  top: -16px;
+  margin-left: -33px;
+}
+
+/* Ajuste fino en móviles */
 @media (max-width: 576px) {
   .logo-reg {
-    font-size: 0.5em;
-    margin-left: 1px;
+    font-size: 9px;
+    top: -12px;
+    margin-left: -26px;
+  }
+  footer .logo-reg {
+    font-size: 11px;
+    top: -18px;
+    margin-left: -38px;
   }
 }
 
