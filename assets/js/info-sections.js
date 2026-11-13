@@ -534,9 +534,49 @@ const getInfo = (section) => {
 
     // },
 
+    {
+
+      name: "Ambiental",
+
+      title: "",
+
+      img: "./assets/img/Servicios_10.jpg",
+
+      data: `<h2 class="title-t-1 mb-4">DERECHO AMBIENTAL</h2>
+
+      <p class="text-uppercase title-t-1">
+
+          <strong>
+
+              <ul>
+
+                  <li class="mb-2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cumplimiento y regulación ambiental.</li>
+
+                  <li class="mb-2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impacto ambiental.</li>
+
+                  <li class="mb-2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Permisos y licencias ambientales.</li>
+
+                  <li class="mb-2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asesoría ambiental en proyectos inmobiliarios y corporativos.</li>
+
+              </ul>
+
+          </strong>
+
+      </p>`,
+
+    },
+
   ];
 
   let find = data.find((x) => x.name === section);
+
+  if (!find) {
+
+    find = data[0];
+
+    section = find.name;
+
+  }
 
   $("#info").html(find.data);
 
