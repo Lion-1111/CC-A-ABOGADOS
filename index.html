@@ -2409,8 +2409,7 @@ https://twitter.com/marco_bf
                 style="text-transform: uppercase; letter-spacing: 1px; font-size: 12px; color: #666;">Asesor&#237;a
                 Legal</p>
             <h2 class="title-form mb-2" style="font-size: 28px;">Agenda tu asesor&#237;a</h2>
-            <p style="font-size: 14px; color: #555; line-height: 1.4; margin-bottom: 20px;">Cu&#233;ntanos brevemente tu
-                situaci&#243;n. Un abogado te contacta en menos de 24 horas.</p>
+            <p style="font-size: 14px; color: #555; line-height: 1.4; margin-bottom: 20px;">D&#233;janos tu nombre y correo. Un abogado te contacta en menos de 24 horas.</p>
 
             <style>
                 .form-2col {
@@ -2442,37 +2441,6 @@ https://twitter.com/marco_bf
                             style="background:#1a1a1a; color:#fff; padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333;">
                     </div>
                 </div>
-                <div class="form-2col">
-                    <div class="form-group" style="margin-bottom: 10px;">
-                        <label
-                            style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">&#193;rea
-                            de inter&#233;s</label>
-                        <select id="wa-area" required
-                            style="background:#1a1a1a;color:#ccc;border:1px solid #333;border-radius:6px;padding:10px 12px;width:100%;font-size:13px;outline:none;appearance:none;-webkit-appearance:none;box-sizing:border-box;">
-                            <option value="" disabled selected>Seleccione...</option>
-                            <option value="Corporativo">Corporativo</option>
-                            <option value="Inmobiliario">Inmobiliario</option>
-                            <option value="Patrimonial">Patrimonial</option>
-                            <option value="Administrativo">Administrativo</option>
-                            <option value="Ambiental">Ambiental</option>
-                            <option value="Otro">Otro</option>
-                        </select>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 10px;">
-                        <label
-                            style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Fecha
-                            preferida</label>
-                        <input type="date" id="wa-fecha"
-                            style="background:#1a1a1a;color:#ccc;border:1px solid #333;border-radius:6px;padding:9px 12px;width:100%;font-size:13px;outline:none;box-sizing:border-box;">
-                    </div>
-                </div>
-                <div class="form-group" style="margin-bottom: 10px;">
-                    <label
-                        style="font-size:11px; font-weight:700; color:#777; text-transform:uppercase; letter-spacing:0.5px;">Cu&#233;ntenos
-                        su situaci&#243;n</label>
-                    <textarea id="wa-mensaje" placeholder="Ej. Necesito ayuda con un tr&#225;mite de divorcio..."
-                        style="background:#1a1a1a; color:#fff; min-height:60px; padding:10px 12px; font-size:13px; border-radius:6px; border:1px solid #333; resize:none;"></textarea>
-                </div>
                 <p style="font-size:10px;color:#777;text-align:center;margin-bottom:10px;line-height:1.4;">Al hacer clic
                     en &ldquo;Agendar&rdquo;, aceptas nuestros <a href="terminos.html"
                         style="color:#b59a6a;">T&#233;rminos</a> y <a href="privacidad.html"
@@ -2490,16 +2458,8 @@ https://twitter.com/marco_bf
                     e.preventDefault();
                     var nombre = document.getElementById('wa-nombre').value;
                     var email = document.getElementById('wa-email').value;
-                    var area = document.getElementById('wa-area').value;
-                    var msj = document.getElementById('wa-mensaje').value;
-                    var fecha = document.getElementById('wa-fecha').value;
 
-                    var texto = 'Hola CCA Abogados, me gustar\u00eda agendar una asesor\u00eda.\n\n';
-                    texto += '*Nombre:* ' + nombre + '\n';
-                    texto += '*Correo:* ' + email + '\n';
-                    texto += '*\u00c1rea de inter\u00e9s:* ' + area + '\n';
-                    if (msj) texto += '*Situaci\u00f3n:* ' + msj + '\n';
-                    if (fecha) texto += '*Fecha preferida:* ' + fecha + '\n';
+                    var texto = 'Hola CCA Abogados, me gustaría agendar una asesoría. Nombre: ' + nombre + '. Correo: ' + email + '.';
 
                     window.open('https://wa.me/525534042896?text=' + encodeURIComponent(texto), '_blank');
                 }
