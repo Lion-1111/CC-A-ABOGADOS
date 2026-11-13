@@ -846,7 +846,6 @@ hr {
 .img-world {
   background-image: url(../img/globo-1.png) !important;
   opacity: 0.9;
-  /* background-image: url(../img/buho_.png) !important; */
   background-repeat: no-repeat !important;
   background-position-x: 100% !important;
   background-position-y: 100% !important;
