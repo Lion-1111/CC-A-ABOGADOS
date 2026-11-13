@@ -861,3 +861,22 @@ p.mt-3.text-center[style*="background-color: #292929"] {
   letter-spacing: 0.08em;
   overflow: hidden;
 }
+
+
+/* ── Símbolo ® registrado en logo ── */
+.logo-reg {
+  font-size: 0.6em;
+  color: #fff;
+  vertical-align: super;
+  margin-left: 2px;
+  line-height: 1;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+}
+@media (max-width: 576px) {
+  .logo-reg {
+    font-size: 0.5em;
+    margin-left: 1px;
+  }
+}
